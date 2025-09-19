@@ -19,15 +19,6 @@
           </p>
           <div class="flex items-center gap-4">
             <UButton
-              to="https://github.com/divyanshdixit"
-              external
-              aria-label="GitHub Profile"
-              variant="ghost"
-              class="transition-transform duration-200 ease-in-out hover:scale-105"
-            >
-              <UIcon name="i-ph-github-logo" />
-            </UButton>
-            <UButton
               to="https://www.linkedin.com/in/divyans/"
               external
               aria-label="LinkedIn Profile"
