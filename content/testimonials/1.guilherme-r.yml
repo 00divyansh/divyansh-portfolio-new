@@ -1,13 +1,11 @@
-avatar: "https://www.freelancer.com/ppic/246986674/logo/20882715/profile_logo_20882715.jpg"
-name: "Guilherme R."
-title: "Startup Founder"
-company: "Tech Startup"
-quote: "Muhammad delivered our MVP 2 weeks ahead of schedule and 20% under budget. His expertise in Vue.js helped us achieve 40% faster load times than our previous solution. Highly recommended!"
-project: "SaaS Platform MVP"
+name: "Pulkit Tuteja"
+title: "Lead Engineer"
+company: "SHL"
+quote: "I've had the pleasure of working with Divyansh, and he stands out as one of the most technically skilled engineers I know. His deep expertise in multiple technologies enables him to solve complex challenges effortlessly, and he consistently delivers high-quality solutions. Beyond his technical abilities, Divyansh is a natural mentor. He is always willing to help junior developers, offering guidance and sharing knowledge that helps them grow. His presence has fostered a sense of healthy competition within the organization, motivating everyone to strive for excellence. If you're looking for someone who leads by example and elevates those around him, I highly recommend Divyansh."
 results:
-  - "Delivered 2 weeks early"
-  - "20% under budget"
-  - "40% performance improvement"
-  - "Zero post-launch bugs"
+  - "Expert in multiple technologies"
+  - "Natural mentor and leader"
+  - "Fosters healthy competition"
+  - "Consistently delivers quality solutions"
 featured: true
 rating: 5

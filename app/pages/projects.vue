@@ -1,8 +1,8 @@
 <script setup lang="ts">
 definePageMeta({
-  title: "Projects - Muhammad Ubaid Raza",
+  title: "Projects - Divyansh Dixit",
   description:
-    "Explore my portfolio of web applications, browser extensions, and open source contributions.",
+    "Explore my portfolio of web applications, enterprise systems, and AI-powered solutions.",
 })
 
 // Fetch projects data from Nuxt Content collection
@@ -11,12 +11,12 @@ const { data: projects } = await useAsyncData("projects", async () => {
 })
 
 useHead({
-  title: "Projects - Muhammad Ubaid Raza",
+  title: "Projects - Divyansh Dixit",
   meta: [
     {
       name: "description",
       content:
-        "Explore my portfolio of web applications, browser extensions, and open source contributions.",
+        "Explore my portfolio of web applications, enterprise systems, and AI-powered solutions.",
     },
   ],
 })
@@ -82,7 +82,102 @@ const filteredProjects = computed(() => {
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div v-for="project in filteredProjects" :key="project.id">
             <div />
-            <UCard class="">
+            <NuxtLink 
+              v-if="project.links && project.links.case_study"
+              :to="project.links.case_study"
+              class="block"
+            >
+              <UCard 
+                class="cursor-pointer hover:shadow-lg transition-shadow duration-300 h-full"
+              >
+                <!-- Project Image -->
+                <div
+                  class="mb-4 flex items-center justify-center overflow-hidden"
+                >
+                  <img
+                    v-if="project.image"
+                    :src="project.image"
+                    :alt="project.title"
+                    class="w-full h-full object-cover"
+                  />
+                  <UIcon v-else name="i-ph-folder-open" />
+                </div>
+
+                <!-- Project Content -->
+                <div class="space-y-4">
+                <div>
+                  <div class="flex items-center justify-between mb-2">
+                    <h3>
+                      {{ project.title }}
+                    </h3>
+                    <UBadge :label="project.category" variant="soft" />
+                  </div>
+                  <p>
+                    {{ project.description }}
+                  </p>
+                </div>
+
+                <!-- Technologies -->
+                <div class="flex flex-wrap gap-1.5">
+                  <UBadge
+                    v-for="tech in project.technologies.slice(0, 4)"
+                    :key="tech"
+                    :label="tech"
+                    variant="outline"
+                  />
+                  <UBadge
+                    v-if="project.technologies.length > 4"
+                    :label="`+${project.technologies.length - 4}`"
+                    variant="soft"
+                  />
+                </div>
+
+                <!-- Status and Date -->
+                <div class="flex items-center justify-between">
+                  <UBadge
+                    :label="project.status"
+                    :color="project.status === 'active' ? 'success' : 'neutral'"
+                    variant="soft"
+                    size="sm"
+                  />
+                  <span>
+                    {{ new Date(project.startDate).getFullYear() }}
+                  </span>
+                </div>
+
+                <!-- Links -->
+                <div class="flex items-center gap-2 pt-2">
+                  <UButton
+                    v-if="project.links.demo"
+                    :to="project.links.demo"
+                    external
+                    variant="solid"
+                    size="sm"
+                    class="flex-1 justify-center"
+                    @click.stop
+                  >
+                    <UIcon name="i-ph-eye" />
+                    Live Demo
+                  </UButton>
+
+                  <UButton
+                    v-if="project.links.github"
+                    :to="project.links.github"
+                    external
+                    variant="outline"
+                    size="sm"
+                    @click.stop
+                  >
+                    <UIcon name="i-ph-github-logo" />
+                  </UButton>
+                </div>
+                </div>
+              </UCard>
+            </NuxtLink>
+            <UCard 
+              v-else
+              class="h-full"
+            >
               <!-- Project Image -->
               <div
                 class="mb-4 flex items-center justify-center overflow-hidden"
@@ -141,7 +236,7 @@ const filteredProjects = computed(() => {
                 <!-- Links -->
                 <div class="flex items-center gap-2 pt-2">
                   <UButton
-                    v-if="project.links.demo"
+                    v-if="project.links && project.links.demo"
                     :to="project.links.demo"
                     external
                     variant="solid"
@@ -153,7 +248,7 @@ const filteredProjects = computed(() => {
                   </UButton>
 
                   <UButton
-                    v-if="project.links.github"
+                    v-if="project.links && project.links.github"
                     :to="project.links.github"
                     external
                     variant="outline"
@@ -161,40 +256,10 @@ const filteredProjects = computed(() => {
                   >
                     <UIcon name="i-ph-github-logo" />
                   </UButton>
-
-                  <UButton
-                    v-if="project.links.case_study"
-                    :to="project.links.case_study"
-                    variant="outline"
-                    size="sm"
-                  >
-                    <UIcon name="i-ph-article" />
-                  </UButton>
                 </div>
               </div>
             </UCard>
           </div>
-        </div>
-      </section>
-
-      <!-- GitHub Integration -->
-      <section class="text-center py-16">
-        <div class="p-8">
-          <h2 class="mb-4">More on GitHub</h2>
-          <p class="mb-8 max-w-3xl mx-auto">
-            Explore my complete portfolio of open source projects,
-            contributions, and experiments on GitHub.
-          </p>
-
-          <UButton
-            to="https://github.com/divyanshdixit"
-            external
-            size="xl"
-            variant="solid"
-          >
-            <UIcon name="i-ph-github-logo" />
-            <span>View GitHub Profile</span>
-          </UButton>
         </div>
       </section>
     </div>

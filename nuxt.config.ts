@@ -119,9 +119,9 @@ export default defineNuxtConfig({
   site: {
     indexable: true,
     url: "https://divyanshdixit.dev",
-    name: "Divyansh Dixit - Senior Full Stack Developer",
+    name: "Divyansh Dixit - Founder & Senior Engineer",
     description:
-      "Senior Full Stack Developer specializing in Java, Spring Boot, Angular, and cloud technologies. Building scalable enterprise solutions with expertise in microservices and AI-powered applications.",
+      "Founder & Senior Engineer architecting AI-powered SaaS platforms. Built complete recruitment systems from concept to production, serving 100k+ users with enterprise-grade performance and cutting-edge technologies.",
     defaultLocale: "en",
     enabled: true,
   },
@@ -148,16 +148,16 @@ export default defineNuxtConfig({
       // Profile Information, if applicable
       image: "/divyansh.png",
       description:
-        "Senior Full Stack Developer specializing in Java, Spring Boot, Angular, and cloud technologies. Building scalable enterprise solutions with expertise in microservices and AI-powered applications.",
+        "Founder & Senior Engineer architecting AI-powered SaaS platforms. Built complete recruitment systems from concept to production, serving 100k+ users with enterprise-grade performance and cutting-edge technologies.",
       jobTitle:
-        "Senior Full Stack Developer | Java Expert | Cloud Architecture",
+        "Founder & Senior Engineer | AI-Powered SaaS | Enterprise Architecture",
 
       // Contact & Social, if applicable
       email: "divyanshdixit2001@gmail.com",
       url: "https://divyanshdixit.dev",
       sameAs: [
         "https://github.com/divyanshdixit",
-        "https://linkedin.com/in/divyansh-dixit",
+        "https://www.linkedin.com/in/divyans/",
       ],
 
       // Professional Details, if applicable

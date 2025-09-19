@@ -1,5 +1,36 @@
 experiences:
   - id: 1
+    title: "Founder & CTO"
+    company: "ZerobiasAI"
+    location: ""
+    period: "2024 - Present"
+    current: true
+    description: "Founded and single-handedly built a next-generation AI-powered recruitment platform designed to eliminate unconscious hiring bias and transform the candidate experience."
+    responsibilities:
+      - "Architected entire system end-to-end: React + TypeScript frontend with modern UI/UX principles"
+      - "Built FastAPI + PostgreSQL backend with microservices-based design and auto-scaling architecture"
+      - "Developed three specialized AI interviewers (technical, HR, background screening) with LLM integrations"
+      - "Engineered real-time proctoring system with face detection, voice authentication, and behavioral scoring"
+      - "Created intelligent resume screening engine and comprehensive analytics dashboard"
+      - "Optimized for enterprise-grade performance: <100ms database response times, 70% faster evaluations"
+    technologies:
+      - "React"
+      - "TypeScript"
+      - "FastAPI"
+      - "PostgreSQL"
+      - "OpenAI GPT-4"
+      - "Claude 3.5"
+      - "AWS"
+      - "Docker"
+      - "WebSockets"
+    achievements:
+      - "Built complete SaaS platform from concept to production-ready deployment"
+      - "Achieved <100ms database response times with optimized query architecture"
+      - "Implemented 70% faster AI evaluations through parallel processing"
+      - "Designed enterprise-grade security with JWT, encryption, and GDPR compliance"
+      - "Created multi-tenant architecture supporting unlimited concurrent users"
+
+  - id: 2
     title: "Senior Full Stack Developer"
     company: "Supercoder"
     location: "Remote"

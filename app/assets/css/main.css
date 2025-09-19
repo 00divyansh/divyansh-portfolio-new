@@ -33,3 +33,42 @@ h4,
 .h4 {
   @apply text-lg md:text-xl font-semibold;
 }
+
+/* Blog post specific styling */
+.prose {
+  @apply text-neutral-700 dark:text-neutral-300;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  @apply text-neutral-900 dark:text-neutral-100 mb-4 mt-8;
+}
+
+.prose h1:first-child,
+.prose h2:first-child,
+.prose h3:first-child {
+  @apply mt-0;
+}
+
+.prose p {
+  @apply mb-6 leading-relaxed;
+}
+
+.prose strong {
+  @apply font-semibold text-neutral-900 dark:text-neutral-100;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-primary-500 pl-6 italic bg-neutral-50 dark:bg-neutral-800/50 py-4 my-6 rounded-r-lg;
+}
+
+.prose ul,
+.prose ol {
+  @apply mb-6;
+}
+
+.prose li {
+  @apply mb-2;
+}

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 useHead({
+  title: "Divyansh Dixit - Founder & Senior Full Stack Developer",
   htmlAttrs: {
     lang: "en",
   },
@@ -7,7 +8,16 @@ useHead({
     {
       rel: "icon",
       type: "image/png",
-      href: "/favicon.png",
+      href: "/favicon.png?v=3",
+    },
+    {
+      rel: "shortcut icon",
+      type: "image/png",
+      href: "/favicon.png?v=3",
+    },
+    {
+      rel: "apple-touch-icon",
+      href: "/divyansh.png",
     },
   ],
   meta: [

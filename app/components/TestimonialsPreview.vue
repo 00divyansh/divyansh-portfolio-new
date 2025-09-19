@@ -14,10 +14,9 @@ function togglePause() {
   <div>
     <div class="space-y-12">
       <div class="text-center space-y-6">
-        <h2>What Clients Say About Working With Me</h2>
+        <h2>LinkedIn Recommendations</h2>
         <p class="max-w-3xl mx-auto">
-          Real feedback from satisfied clients who've transformed their
-          businesses with custom web solutions
+          Professional recommendations from colleagues and team members I've worked with
         </p>
       </div>
 
@@ -79,7 +78,7 @@ function togglePause() {
                     class="space-y-2 sm:space-y-3 mb-4 sm:mb-6"
                   >
                     <h3 class="text-sm sm:text-base font-semibold">
-                      Key Results:
+                      Key Highlights:
                     </h3>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
                       <div
@@ -152,9 +151,9 @@ function togglePause() {
                       >
                     </p>
                     <UBadge
-                      label="Verified Client"
+                      label="Former Colleague"
                       class="mt-2"
-                      color="success"
+                      color="blue"
                     />
                   </div>
                 </div>

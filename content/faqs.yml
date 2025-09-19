@@ -1,23 +1,30 @@
 list:
-  - label: "What services do you offer?"
-    content: "I offer a range of services including Full-Stack Development (Vue.js, React, Node.js), Technical Consulting, Project Leadership, Code Review & Mentoring, Browser Extension Development, and API Development & Integration. We can discuss your specific needs to tailor a service package."
-  - label: "What is your typical development process and how are clients involved?"
-    content: "My process involves: Discovery (understanding your requirements and business goals), Planning (detailed project scope, timeline, and deliverables, including cost estimates), Development (agile sprints with regular client demos and feedback sessions), and Delivery (thorough testing, deployment, and comprehensive handover with documentation). Client involvement is crucial at each stage to ensure alignment and satisfaction."
-  - label: "What are your pricing models and payment terms?"
-    content: "Pricing varies by project complexity and engagement model. I offer hourly rates for smaller tasks or ongoing support, and fixed-price quotes for well-defined projects. For larger projects, we can discuss milestone-based payments. A typical payment schedule involves an upfront deposit (e.g., 30-50%), milestone payments, and a final payment upon project completion and acceptance. Detailed terms will be outlined in the project proposal."
-  - label: "Which technologies do you specialize in for Full-Stack Development?"
-    content: "I specialize in modern JavaScript frameworks and technologies including Vue.js (with Nuxt.js), React (with Next.js), Node.js, TypeScript, PostgreSQL, and MongoDB. I'm also adaptable to other technologies based on project requirements."
-  - label: "Can you help with an existing project or only new ones? What about project rescue?"
-    content: "I can assist with both new projects from scratch and existing projects that need new features, refactoring, or performance improvements. I also offer project rescue services for projects that are struggling, helping to get them back on track by identifying issues and implementing solutions."
-  - label: "How do I get started on a project with you, and what's the initial consultation like?"
-    content: "The best way to start is by contacting me with a brief overview of your project. We'll then schedule a free initial consultation (typically 30-60 minutes) to discuss your requirements, goals, timeline, and budget in more detail. This helps us determine if we're a good fit and allows me to prepare a tailored proposal."
-  - label: "Do you offer ongoing support and maintenance, and what are the terms?"
-    content: "Yes, I offer ongoing support and maintenance retainers or ad-hoc support charged at an hourly rate. Terms for retainers, including response times and scope of work, are customized based on your needs and agreed upon in a separate Service Level Agreement (SLA)."
-  - label: "What kind of technical consulting do you provide, and how can it benefit my project's timeline and budget?"
-    content: "My technical consulting includes technology stack selection, architectural design reviews, code audits, performance optimization, and scalability planning. Effective consulting can prevent costly mistakes, reduce development time by choosing the right tools and approaches, and ensure your project is built on a solid, future-proof foundation, ultimately saving time and money."
-  - label: "How are project timelines estimated, and what happens if there are delays?"
-    content: "Timelines are estimated based on the project scope, complexity, and required features. I provide a detailed breakdown of tasks and their estimated duration in the project plan. While I strive to meet all deadlines, unforeseen issues or scope changes can cause delays. In such cases, I maintain transparent communication, discuss the impact, and work with you to adjust the plan and mitigate further delays."
-  - label: "What are the terms regarding intellectual property (IP) ownership for the developed software?"
-    content: "Typically, upon full payment, the client owns the intellectual property rights to the custom code developed specifically for their project. Any pre-existing tools, libraries, or frameworks used remain the property of their respective owners. This will be clearly stated in our contract."
-  - label: "How do you handle changes in project scope or requirements (scope creep)?"
-    content: "Changes in scope are managed through a formal change request process. We'll discuss the requested changes, assess their impact on the timeline and budget, and provide a revised estimate. Approved changes will be documented and integrated into the project plan. This ensures transparency and avoids unexpected costs or delays."
+  - label: "How do you balance founding ZerobiasAI with your full-time role at Supercoder?"
+    content: "I founded ZerobiasAI as a passion project in 2024, building the entire platform single-handedly using React, TypeScript, FastAPI, and PostgreSQL. I manage this alongside my Supercoder role by dedicating focused time to both - applying enterprise development patterns from my day job to ZerobiasAI's architecture, and bringing innovation from my startup experience back to enterprise projects. This dual experience has significantly enhanced my technical leadership skills."
+
+  - label: "What are your key responsibilities at Supercoder?"
+    content: "At Supercoder, I architect full-stack applications using Angular and Java Spring Boot, ensuring 99.9% application uptime for enterprise clients. I lead development of AI-powered interview automation systems that reduced manual screening time by 75%. My role involves designing microservices architecture for 10,000+ concurrent users, establishing technical documentation standards, and coordinating cross-functional teams using agile methodologies."
+
+  - label: "How do you demonstrate technical leadership early in your career?"
+    content: "Despite being early in my career, I've led through technical excellence: mentoring a team of 7 engineers at SHL Global, achieving 100% code coverage through TDD practices, and reducing deployment time by 93% through microservices optimization. At ZerobiasAI, I made all architectural decisions, from choosing tech stack to designing multi-tenant SaaS architecture. Leadership for me means taking ownership, sharing knowledge, and driving technical standards that others can follow."
+
+  - label: "What's your approach to architecting enterprise-grade systems?"
+    content: "I focus on three core principles: scalability, reliability, and maintainability. For ZerobiasAI, I designed a multi-tenant architecture with <100ms database response times and enterprise-grade security. At Supercoder and SHL, I implemented microservices patterns, OAuth 2.0 authentication, and comprehensive monitoring. I always start with thorough system design, choose proven technologies, implement robust testing strategies, and ensure proper documentation for team scalability."
+
+  - label: "How do you stay current with rapidly evolving AI/ML technologies?"
+    content: "I stay hands-on by building real systems. ZerobiasAI integrates GPT-4 and Claude 3.5 for specialized AI interviewers, giving me deep experience with LLM optimization and deployment. At Supercoder, I develop AI automation workflows. I focus on practical implementation rather than theoretical knowledge - understanding tokenization, prompt engineering, API limitations, and production considerations that come from actually shipping AI-powered products."
+
+  - label: "What's your experience with performance optimization and scalability?"
+    content: "I've achieved significant performance improvements across multiple projects: 70% faster AI evaluations through parallel processing at ZerobiasAI, 71% performance boost from Elasticsearch migration at SHL, and optimizing systems to handle 100k+ users. My approach involves profiling bottlenecks, implementing efficient caching strategies (like Aerospike for AMCAT), database query optimization, and designing for horizontal scaling from day one."
+
+  - label: "How do you ensure code quality and reliability in production systems?"
+    content: "I implement comprehensive testing strategies - achieved 100% code coverage at SHL through TDD, which reduced production bugs by 75%. At ZerobiasAI, I built automated testing pipelines and monitoring systems. I believe in defensive programming, thorough code reviews, continuous integration, and treating documentation as code. For critical systems, I implement circuit breakers, health checks, and graceful degradation patterns."
+
+  - label: "What's your experience with cloud architecture and DevOps?"
+    content: "I've deployed production systems on AWS with auto-scaling, load balancing, and CI/CD pipelines. ZerobiasAI runs on AWS with Docker containerization and GitHub Actions for deployment. At previous roles, I've managed infrastructure supporting 50k+ concurrent exams and 99.99% uptime requirements. I focus on Infrastructure as Code, monitoring and alerting, cost optimization, and security best practices including encryption and GDPR compliance."
+
+  - label: "How do you approach team collaboration and knowledge sharing?"
+    content: "I believe in leading by example and fostering learning environments. I establish technical documentation standards that improve team onboarding efficiency by 70%, conduct thorough code reviews focused on knowledge transfer, and mentor junior developers on best practices. I promote transparent communication about technical decisions, encourage experimentation with new technologies, and ensure that knowledge isn't siloed but shared across the team."
+
+  - label: "What drives your passion for full-stack development and innovation?"
+    content: "I'm energized by building complete solutions that users actually rely on. Seeing ZerobiasAI eliminate hiring bias through technology, or watching systems I built at SHL handle millions of assessments - that impact drives me. I love the challenge of optimizing every layer of the stack, from database queries to user interfaces. The rapid evolution of AI technologies especially excites me because it opens new possibilities for solving complex problems in innovative ways."

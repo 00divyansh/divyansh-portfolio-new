@@ -127,36 +127,30 @@ if (profile.value) {
           class="flex flex-wrap justify-center items-center gap-x-4 gap-y-2 mt-6 text-sm"
         >
           <div class="flex items-center gap-1">
-            <span class="text-xl font-semibold">
-              {{ profile?.experience || "12" }}+
-            </span>
-            <span>Years Experience</span>
+            <span class="text-xl font-semibold">8+</span>
+            <span>Programming Languages</span>
           </div>
 
           <span class="hidden sm:inline">|</span>
 
           <div class="flex items-center gap-1">
-            <span class="text-xl font-semibold">
-              {{ profile?.projectsDelivered || "125" }}+
-            </span>
-            <span>Projects Delivered</span>
+            <span class="text-xl font-semibold">100%</span>
+            <span>Work Ownership</span>
           </div>
 
           <span class="hidden sm:inline">|</span>
 
           <div class="flex items-center gap-1">
-            <span class="text-xl font-semibold">
-              {{ profile?.clientSatisfaction || "100" }}%
-            </span>
-            <span>Client Satisfaction</span>
+            <span class="text-xl font-semibold">100%</span>
+            <span>Reliable Engineer</span>
           </div>
         </div>
 
         <!-- Enhanced Action Buttons -->
         <div class="flex flex-col sm:flex-row gap-4 justify-center mt-12">
           <UButton to="/contact" size="xl" variant="solid">
-            <UIcon name="i-ph-rocket-launch" />
-            Start Your Project Today
+            <UIcon name="i-ph-envelope" />
+            Get In Touch
           </UButton>
 
           <UButton

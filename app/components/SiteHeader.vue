@@ -37,14 +37,14 @@
               to="/services"
               class="hover:scale-105 transition-transform duration-200 ease-in-out"
             >
-              Services
+              Expertise
             </ULink>
-            <!-- <ULink
-            to="/projects"
-            class="hover:scale-105 transition-transform duration-200 ease-in-out"
-          >
-            Projects
-          </ULink> -->
+            <ULink
+              to="/projects"
+              class="hover:scale-105 transition-transform duration-200 ease-in-out"
+            >
+              Projects
+            </ULink>
             <ULink
               to="/blog"
               class="hover:scale-105 transition-transform duration-200 ease-in-out"
@@ -131,7 +131,7 @@ const mobileMenuOpen = ref(false)
 // Navigation items configuration
 const navigationItems = [
   { path: "/about", label: "About", icon: "i-ph-user" },
-  { path: "/services", label: "Services", icon: "i-ph-briefcase" },
+  { path: "/services", label: "Expertise", icon: "i-ph-briefcase" },
   { path: "/projects", label: "Projects", icon: "i-ph-folder-open" },
   { path: "/blog", label: "Blog", icon: "i-ph-article" },
 ]

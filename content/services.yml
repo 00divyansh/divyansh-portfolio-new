@@ -1,247 +1,206 @@
-services:
+expertise:
   - id: 1
-    title: "Enterprise Java Development"
-    description: "Building scalable enterprise applications using Java, Spring Boot, and microservices architecture."
-    icon: "i-ph-code"
-    category: "Development"
+    title: "AI-Powered SaaS Platform Development"
+    description: "End-to-end development of intelligent SaaS platforms with advanced AI integrations and enterprise-grade architecture."
+    icon: "i-ph-robot"
+    category: "Platform Development"
     featured: true
-    features:
-      - "Spring Boot Microservices"
-      - "RESTful API Development"
-      - "Database Design & Optimization"
-      - "Performance Tuning"
-      - "Security Implementation (OAuth, JWT)"
-      - "100% Code Coverage with TDD"
-    pricing:
-      hourly: 80
-      currency: "USD"
-      description: "From $80/hour"
-    timeline: "2-12 weeks"
-    suitable: "Enterprise, Startups, SMEs"
+    capabilities:
+      - "Multi-tenant SaaS architecture design"
+      - "Advanced AI integrations (GPT-4, Claude 3.5)"
+      - "Real-time systems with WebSockets"
+      - "Computer vision and behavioral analysis"
+      - "Enterprise security and GDPR compliance"
+      - "Microservices with auto-scaling"
+    technologies:
+      - "React"
+      - "TypeScript"
+      - "FastAPI"
+      - "PostgreSQL"
+      - "OpenAI"
+      - "AWS"
+      - "Docker"
+    experience: "ZerobiasAI - Founded and built complete recruitment platform"
+    achievements:
+      - "Built production-ready SaaS from concept to deployment"
+      - "Achieved <100ms database response times"
+      - "Implemented 70% faster AI processing through optimization"
+
+  - id: 2
+    title: "Enterprise Java Development & Architecture"
+    description: "Full-stack enterprise development with Java, Spring Boot, and modern microservices architecture."
+    icon: "i-ph-code"
+    category: "Enterprise Development"
+    featured: true
+    capabilities:
+      - "Spring Boot microservices architecture"
+      - "Enterprise API development and integration"
+      - "Database optimization and performance tuning"
+      - "Test-driven development with 100% coverage"
+      - "OAuth 2.0 and JWT security implementation"
+      - "CI/CD pipeline design and deployment"
     technologies:
       - "Java"
       - "Spring Boot"
+      - "Angular"
       - "PostgreSQL"
       - "MongoDB"
       - "Elasticsearch"
       - "AWS"
-
-  - id: 2
-    title: "Full-Stack Application Development"
-    description: "End-to-end application development with Angular frontend and Java/Spring backend."
-    icon: "i-ph-desktop"
-    category: "Development"
-    featured: true
-    features:
-      - "Angular Single Page Applications"
-      - "Responsive UI Development"
-      - "Backend API Integration"
-      - "Real-time Features"
-      - "Cross-browser Compatibility"
-      - "Mobile-responsive Design"
-    pricing:
-      hourly: 75
-      currency: "USD"
-      description: "From $75/hour"
-    timeline: "3-16 weeks"
-    suitable: "All business sizes"
-    technologies:
-      - "Angular"
-      - "TypeScript"
-      - "Java"
-      - "Spring Boot"
-      - "HTML5/CSS3"
-      - "Bootstrap"
+    experience: "Supercoder & SHL Global - 5+ years enterprise development"
+    achievements:
+      - "Achieved 99.9% application uptime"
+      - "Reduced deployment time by 93%"
+      - "Led team of 7 engineers"
 
   - id: 3
-    title: "AI & LLM Integration"
-    description: "Integrating Large Language Models and AI capabilities into existing applications."
-    icon: "i-ph-robot"
-    category: "Innovation"
+    title: "AI & Machine Learning Integration"
+    description: "Advanced AI system integration with focus on LLMs, automation, and intelligent decision-making."
+    icon: "i-ph-brain"
+    category: "AI Innovation"
     featured: true
-    features:
-      - "LLM Integration (GPT, Claude)"
-      - "Automated Workflow Design"
-      - "Natural Language Processing"
-      - "AI-powered Features"
-      - "Custom Model Training"
-      - "Performance Optimization"
-    pricing:
-      hourly: 100
-      currency: "USD"
-      description: "From $100/hour"
-    timeline: "4-12 weeks"
-    suitable: "Enterprises, Tech Companies"
+    capabilities:
+      - "Large Language Model integration and optimization"
+      - "AI-powered automation workflows"
+      - "Machine learning pipeline development"
+      - "Natural language processing systems"
+      - "Intelligent data analysis and insights"
+      - "Real-time AI decision engines"
     technologies:
+      - "OpenAI GPT-4"
+      - "Claude 3.5"
       - "Python"
-      - "LLMs"
-      - "OpenAI API"
+      - "FastAPI"
       - "Machine Learning"
-      - "REST APIs"
+      - "LLMs"
+    experience: "ZerobiasAI & Supercoder - AI-first platform development"
+    achievements:
+      - "Reduced manual screening time by 75%"
+      - "Built 3 specialized AI interviewers"
+      - "90% accuracy in candidate assessment"
 
   - id: 4
-    title: "Microservices Architecture"
-    description: "Designing and implementing scalable microservices architecture for enterprise applications."
-    icon: "i-ph-circles-three"
-    category: "Architecture"
+    title: "Technical Leadership & Team Management"
+    description: "Leading development teams, mentoring engineers, and driving technical excellence in high-velocity environments."
+    icon: "i-ph-users"
+    category: "Leadership"
     featured: false
-    features:
-      - "Service Decomposition"
-      - "API Gateway Implementation"
-      - "Service Discovery"
-      - "Circuit Breaker Pattern"
-      - "Event-Driven Architecture"
-      - "Container Orchestration"
-    pricing:
-      hourly: 90
-      currency: "USD"
-      description: "From $90/hour"
-    timeline: "4-20 weeks"
-    suitable: "Enterprise, Large Teams"
+    capabilities:
+      - "Cross-functional team coordination"
+      - "Technical architecture decision-making"
+      - "Code review and quality assurance"
+      - "Agile development methodologies"
+      - "Developer mentoring and training"
+      - "Project planning and execution"
     technologies:
-      - "Spring Cloud"
-      - "Docker"
-      - "Kubernetes"
-      - "API Gateway"
-      - "Message Queues"
-      - "Service Mesh"
+      - "Agile/Scrum"
+      - "Git/GitHub"
+      - "Code Review"
+      - "Technical Documentation"
+      - "Team Management"
+    experience: "Founder role + Team lead at SHL Global"
+    achievements:
+      - "Founded and scaled ZerobiasAI from concept"
+      - "Mentored team of 7 engineers"
+      - "Improved team onboarding efficiency by 70%"
 
   - id: 5
-    title: "Database Optimization & Migration"
-    description: "Optimizing database performance and migrating between different database systems."
-    icon: "i-ph-database"
+    title: "Cloud Architecture & DevOps"
+    description: "Designing and implementing scalable cloud infrastructure with modern DevOps practices."
+    icon: "i-ph-cloud"
     category: "Infrastructure"
     featured: false
-    features:
-      - "Query Optimization"
-      - "Index Management"
-      - "Database Migration"
-      - "NoSQL Implementation"
-      - "Caching Strategies"
-      - "Performance Monitoring"
-    pricing:
-      hourly: 85
-      currency: "USD"
-      description: "From $85/hour"
-    timeline: "2-8 weeks"
-    suitable: "All business sizes"
+    capabilities:
+      - "AWS cloud architecture design"
+      - "Dockerized microservices deployment"
+      - "Auto-scaling and load balancing"
+      - "CI/CD pipeline optimization"
+      - "Infrastructure as Code"
+      - "Performance monitoring and optimization"
     technologies:
-      - "MySQL"
-      - "PostgreSQL"
-      - "MongoDB"
-      - "Elasticsearch"
-      - "Redis"
-      - "Aerospike"
+      - "AWS"
+      - "Docker"
+      - "GitHub Actions"
+      - "Terraform"
+      - "Kubernetes"
+      - "Monitoring"
+    experience: "All projects - Cloud-first architecture"
+    achievements:
+      - "Deployed multi-tenant SaaS on AWS"
+      - "Achieved enterprise-grade scalability"
+      - "Optimized infrastructure costs"
 
-  - id: 6
-    title: "Technical Consulting & Code Review"
-    description: "Providing expert technical guidance, code reviews, and architectural recommendations."
-    icon: "i-ph-magnifying-glass"
-    category: "Consulting"
-    featured: false
-    features:
-      - "Architecture Review"
-      - "Code Quality Assessment"
-      - "Performance Analysis"
-      - "Security Audit"
-      - "Best Practices Implementation"
-      - "Team Mentoring"
-    pricing:
-      hourly: 95
-      currency: "USD"
-      description: "From $95/hour"
-    timeline: "1-4 weeks"
-    suitable: "All business sizes"
-    technologies:
-      - "Java"
-      - "Spring Boot"
-      - "Angular"
-      - "System Design"
-      - "Code Analysis"
-      - "Testing Strategies"
-
-process:
+approach:
   - step: 1
-    title: "Requirements Analysis"
-    description: "Understanding your project requirements, technical needs, and business goals."
-    icon: "i-ph-chat-circle"
+    title: "Technical Assessment"
+    description: "Understanding the technical requirements, constraints, and opportunities for innovation."
+    icon: "i-ph-magnifying-glass"
     details:
-      - "Initial consultation call"
-      - "Requirements documentation"
-      - "Technical feasibility study"
-      - "Timeline and budget estimation"
+      - "System architecture evaluation"
+      - "Technology stack assessment"
+      - "Performance and scalability analysis"
+      - "Security and compliance review"
 
   - step: 2
-    title: "System Design"
-    description: "Creating comprehensive system architecture and technical design documents."
+    title: "Solution Design"
+    description: "Creating comprehensive technical architecture and implementation strategy."
     icon: "i-ph-blueprint"
     details:
-      - "High-level architecture design"
-      - "Database schema design"
-      - "API specification"
-      - "Technology stack selection"
+      - "High-level system design"
+      - "Database and API architecture"
+      - "Technology selection and justification"
+      - "Risk assessment and mitigation"
 
   - step: 3
-    title: "Agile Development"
-    description: "Iterative development with regular sprints and continuous feedback."
+    title: "Implementation & Leadership"
+    description: "Hands-on development with team leadership and quality assurance."
     icon: "i-ph-code"
     details:
-      - "Sprint planning"
+      - "Agile development practices"
       - "Test-driven development"
-      - "Regular code reviews"
-      - "Continuous integration"
+      - "Code review and mentoring"
+      - "Performance optimization"
 
   - step: 4
-    title: "Deployment & Support"
-    description: "Deploying to production with comprehensive testing and documentation."
+    title: "Delivery & Innovation"
+    description: "Ensuring successful deployment with continuous improvement and innovation."
     icon: "i-ph-rocket"
     details:
-      - "UAT and performance testing"
-      - "Production deployment"
-      - "Documentation delivery"
-      - "Post-deployment support"
+      - "Production deployment and monitoring"
+      - "Performance tuning and optimization"
+      - "Documentation and knowledge transfer"
+      - "Continuous innovation and enhancement"
 
-packages:
-  - name: "Technical Consulting"
-    price: 95
-    currency: "USD"
-    period: "per hour"
-    description: "Expert technical advice and code review"
-    features:
-      - "Architecture review"
-      - "Code quality assessment"
+collaboration:
+  - name: "Technical Leadership"
+    description: "Leading technical teams and driving architectural decisions"
+    focus:
+      - "System architecture and design"
+      - "Technology selection and strategy"
+      - "Team mentoring and development"
+      - "Code quality and best practices"
       - "Performance optimization"
-      - "Security recommendations"
-      - "Best practices guidance"
-    highlighted: false
-    category: "consulting"
+    highlighted: true
+    category: "leadership"
 
   - name: "Full-Stack Development"
-    price: 75
-    currency: "USD"
-    period: "per hour"
-    description: "Complete application development services"
-    features:
-      - "Frontend development (Angular)"
-      - "Backend development (Java/Spring)"
-      - "Database design"
-      - "API development"
-      - "Testing & deployment"
-      - "Documentation"
-    highlighted: true
+    description: "End-to-end application development and system integration"
+    focus:
+      - "Frontend development (React, Angular)"
+      - "Backend development (Java, Python)"
+      - "Database design and optimization"
+      - "API development and integration"
+      - "Testing and deployment"
+    highlighted: false
     category: "development"
 
-  - name: "Enterprise Solutions"
-    price: null
-    currency: "USD"
-    period: "custom pricing"
-    description: "Large-scale enterprise application development"
-    features:
-      - "Microservices architecture"
-      - "Scalability planning"
-      - "Performance optimization"
-      - "Security implementation"
-      - "Team coordination"
-      - "Long-term support"
-    highlighted: false
-    category: "enterprise"
+  - name: "AI & Innovation"
+    description: "Advanced AI integration and innovative solution development"
+    focus:
+      - "AI/ML system integration"
+      - "LLM optimization and deployment"
+      - "Intelligent automation workflows"
+      - "Data analysis and insights"
+      - "Innovation and R&D"
+    highlighted: true
+    category: "innovation"

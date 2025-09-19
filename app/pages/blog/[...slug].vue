@@ -40,9 +40,6 @@ if (page.value) {
     link: [{ rel: "canonical", href: url }],
   })
 
-  defineOgImage(page.value.ogImage)
-  defineOgImageComponent("NuxtSeo")
-
   // Register BlogPosting JSON-LD via Nuxt SEO
   useSchemaOrg({
     "@type": "BlogPosting",
@@ -125,7 +122,7 @@ const formatDate = (date: string | Date) => {
       </div>
 
       <!-- Post Content -->
-      <article class="prose prose-lg max-w-none mx-auto">
+      <article class="prose prose-lg prose-neutral dark:prose-invert max-w-4xl mx-auto prose-headings:font-bold prose-headings:tracking-tight prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-xl prose-p:text-base prose-p:leading-relaxed prose-strong:font-semibold prose-blockquote:border-l-4 prose-blockquote:border-primary-500 prose-blockquote:pl-4 prose-blockquote:italic">
         <ContentRenderer :value="page" />
       </article>
 

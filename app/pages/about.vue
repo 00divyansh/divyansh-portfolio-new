@@ -207,44 +207,48 @@ useHead({
         </div>
       </section>
 
-      <!-- Certifications -->
+      <!-- GitHub Activity -->
       <section class="space-y-12">
         <div class="text-center space-y-6">
-          <h2>Certifications & Awards</h2>
-
+          <h2>Development Activity</h2>
           <p class="max-w-3xl mx-auto">
-            Industry-recognized certifications and achievements that validate
-            expertise and commitment to excellence.
+            My GitHub contribution graph showcasing consistent development activity and commitment to continuous coding practice.
           </p>
         </div>
 
-        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          <div
-            v-for="cert in professionalJourney?.certifications"
-            :key="cert.id"
-            class="h-full text-center"
-          >
-            <UCard class="">
-              <div class="space-y-4">
-                <div class="w-16 h-16 flex items-center justify-center mx-auto">
-                  <UIcon name="i-ph-certificate" size="4em" class="text-info" />
-                </div>
-
-                <div class="space-y-3">
-                  <h3>{{ cert.name }}</h3>
-                  <p>{{ cert.issuer }}</p>
-                  <UBadge :label="cert.date" variant="soft" />
-                </div>
-
-                <p>
-                  {{ cert.description }}
-                </p>
-
-                <div>ID: {{ cert.credentialId }}</div>
+        <UCard class="overflow-hidden">
+          <div class="text-center space-y-4">
+            <div class="flex items-center justify-center gap-2 mb-4">
+              <UIcon name="i-ph-github-logo" size="2em" class="text-primary-500" />
+              <h3>GitHub Contributions</h3>
+            </div>
+            <div class="bg-white dark:bg-neutral-800 p-4 rounded-lg">
+              <img 
+                src="/img/github-contributions.png" 
+                alt="GitHub Contributions Graph" 
+                class="w-full max-w-4xl mx-auto rounded border dark:border-neutral-600"
+              />
+            </div>
+            <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-600 dark:text-gray-400">
+              <div class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-green-200 rounded-sm"></div>
+                <span>Low activity</span>
               </div>
-            </UCard>
+              <div class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-green-400 rounded-sm"></div>
+                <span>Moderate activity</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-green-600 rounded-sm"></div>
+                <span>High activity</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-green-800 rounded-sm"></div>
+                <span>Very high activity</span>
+              </div>
+            </div>
           </div>
-        </div>
+        </UCard>
       </section>
 
       <!-- Call to Action -->
@@ -262,7 +266,7 @@ useHead({
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
               <UButton to="/services" size="lg" variant="solid">
                 <UIcon name="i-ph-briefcase" />
-                View Services
+                View Expertise
               </UButton>
               <UButton to="/contact" size="lg" variant="subtle">
                 <UIcon name="i-ph-envelope" />

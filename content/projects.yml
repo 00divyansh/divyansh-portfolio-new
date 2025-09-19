@@ -1,9 +1,57 @@
 projects:
   - id: 1
+    title: "ZerobiasAI - AI-Powered Recruitment Platform"
+    description: "Next-generation recruitment platform eliminating unconscious hiring bias with advanced AI interviewers and real-time proctoring."
+    longDescription: "As the founder and sole developer of ZerobiasAI, I built a comprehensive AI-powered recruitment platform from concept to production. The platform features three specialized AI interviewers powered by GPT-4 and Claude 3.5, real-time proctoring with behavioral analysis, intelligent resume screening, and comprehensive analytics dashboard. Architected with React + TypeScript frontend, FastAPI + PostgreSQL backend, and deployed on AWS with enterprise-grade security and multi-tenant architecture."
+    image: "/img/projects/zerobias.png"
+    technologies:
+      - "React"
+      - "TypeScript" 
+      - "FastAPI"
+      - "PostgreSQL"
+      - "OpenAI GPT-4"
+      - "Claude 3.5"
+      - "AWS"
+      - "Docker"
+      - "WebSockets"
+      - "Computer Vision"
+    category: "SaaS Platform"
+    featured: true
+    status: "active"
+    startDate: "2024-01-01"
+    endDate: 9999-12-31
+    links:
+      demo: "https://www.zerobias.co/"
+      case_study: "/case-studies/zerobias-ai"
+    stats:
+      response_time: "<100ms"
+      performance_gain: "70%"
+      users: "Multi-tenant"
+      security: "Enterprise-grade"
+    features:
+      - "Three specialized AI interviewers (Technical, HR, Background)"
+      - "Real-time proctoring with face detection and voice authentication"
+      - "Intelligent resume screening engine"
+      - "Comprehensive analytics dashboard"
+      - "Behavioral risk scoring system"
+      - "Multi-tenant SaaS architecture"
+    challenges:
+      - "Building enterprise-grade AI interviewer system from scratch"
+      - "Implementing real-time proctoring with computer vision"
+      - "Achieving <100ms database response times at scale"
+      - "Ensuring GDPR compliance and data security"
+    outcomes:
+      - "Complete SaaS platform from concept to production"
+      - "<100ms database response times achieved"
+      - "70% faster AI evaluations through parallel processing"
+      - "Enterprise-grade security with JWT and encryption"
+      - "Multi-tenant architecture supporting unlimited users"
+
+  - id: 2
     title: "AI-Powered Interview Automation System"
     description: "Automated interview screening system using Large Language Models, reducing manual screening time by 75%."
     longDescription: "Developed an innovative AI-powered system that automates the technical interview screening process using advanced Large Language Models. The system evaluates candidate responses, provides intelligent scoring, and generates comprehensive assessment reports, significantly improving hiring efficiency and accuracy."
-    image: "/img/projects/ai-interview.png"
+    image: "/img/projects/supercoder.png"
     technologies:
       - "Python"
       - "LLMs"
@@ -17,7 +65,7 @@ projects:
     startDate: "2024-11-01"
     endDate: 9999-12-31
     links:
-      demo: "#"
+      demo: "https://www.supercoder.co/en/"
       case_study: "/case-studies/ai-interview-system"
     stats:
       efficiency: "75%"
@@ -43,7 +91,7 @@ projects:
     title: "AMCAT Universal Player"
     description: "Backend system for psychometric assessment with ML-powered scoring algorithms for career-based exams."
     longDescription: "Collaborated with ML engineers to develop sophisticated psychometric scoring algorithms for the AMCAT backend system. Implemented high-performance caching with Aerospike to handle high-volume assessment traffic, ensuring seamless operation during peak exam periods."
-    image: "/img/projects/amcat.png"
+    image: "/img/projects/opq.png"
     technologies:
       - "PHP"
       - "Laravel"
@@ -57,7 +105,7 @@ projects:
     startDate: "2023-01-15"
     endDate: "2024-06-30"
     links:
-      demo: "#"
+      demo: "https://www.shl.com/products/assessments/personality-assessment/shl-occupational-personality-questionnaire-opq/"
       case_study: "/case-studies/amcat-player"
     stats:
       users: "100k+"
@@ -83,7 +131,7 @@ projects:
     title: "TC+ ATS Integration Platform"
     description: "Comprehensive integration platform connecting TC+ with multiple Application Tracking Systems."
     longDescription: "Built robust REST controllers and APIs for seamless integration of TC+ talent assessment platform with various ATS systems. Implemented scalable logging infrastructure using MongoDB and Elasticsearch for real-time monitoring and analysis."
-    image: "/img/projects/tc-plus.png"
+    # No image available
     technologies:
       - "Java"
       - "Spring Boot"
@@ -93,11 +141,10 @@ projects:
       - "REST APIs"
     category: "Integration"
     featured: true
-    status: "active"
+    status: "completed"
     startDate: "2021-07-01"
-    endDate: 9999-12-31
+    endDate: "2024-11-01"
     links:
-      demo: "#"
       case_study: "/case-studies/tc-plus-integration"
     stats:
       integrations: "25+"
@@ -121,9 +168,9 @@ projects:
 
   - id: 4
     title: "CASPER Microservice Architecture"
-    description: "Core backend microservice with secure REST APIs, achieving 100% code coverage through TDD."
-    longDescription: "Owned and developed CASPER, a critical backend microservice handling core business logic. Implemented secure authentication using OAuth 2.0 and JWT, achieved 100% code coverage through rigorous test-driven development, reducing production bugs by 75%."
-    image: "/img/projects/casper.png"
+    description: "Core backend microservice with secure REST APIs, achieving 100% code coverage through TDD. Led major performance optimization reducing deployment time by 93% and improving system performance by 71%."
+    longDescription: "Owned and developed CASPER, a critical backend microservice handling core business logic. Implemented secure authentication using OAuth 2.0 and JWT, achieved 100% code coverage through rigorous test-driven development, reducing production bugs by 75%. Led major performance optimization initiative reducing deployment time by 93% and improving system performance by 71%."
+    # No image available
     technologies:
       - "PHP"
       - "CodeIgniter"
@@ -133,11 +180,10 @@ projects:
       - "TDD"
     category: "Microservices"
     featured: false
-    status: "active"
+    status: "completed"
     startDate: "2023-07-01"
-    endDate: 9999-12-31
+    endDate: "2024-11-01"
     links:
-      demo: "#"
       case_study: "/case-studies/casper-microservice"
     stats:
       coverage: "100%"
@@ -163,7 +209,7 @@ projects:
     title: "Enterprise Logging Infrastructure"
     description: "Scalable logging solution using MongoDB and Elasticsearch for real-time log analysis."
     longDescription: "Engineered a comprehensive logging infrastructure to handle millions of log entries daily. Built with MongoDB for storage and Elasticsearch for powerful search capabilities, enabling real-time monitoring and debugging of distributed systems."
-    image: "/img/projects/logging.png"
+    # No image available
     technologies:
       - "MongoDB"
       - "Elasticsearch"
@@ -177,7 +223,6 @@ projects:
     startDate: "2022-03-01"
     endDate: "2023-05-31"
     links:
-      demo: "#"
       case_study: "/case-studies/logging-infrastructure"
     stats:
       logs_processed: "10M+/day"
@@ -199,49 +244,11 @@ projects:
       - "Sub-100ms search response time"
       - "99.95% system availability"
 
-  - id: 6
-    title: "Performance Optimization Initiative"
-    description: "Led major performance optimization reducing deployment time by 93% and improving system performance by 71%."
-    longDescription: "Spearheaded a comprehensive performance optimization initiative focusing on microservices architecture, database optimization, and caching strategies. Achieved remarkable improvements in deployment efficiency and system responsiveness through systematic refactoring and optimization."
-    image: "/img/projects/optimization.png"
-    technologies:
-      - "Java"
-      - "Spring Boot"
-      - "Elasticsearch"
-      - "Redis"
-      - "Docker"
-      - "Performance Testing"
-    category: "Optimization"
-    featured: false
-    status: "completed"
-    startDate: "2023-08-01"
-    endDate: "2024-02-28"
-    links:
-      demo: "#"
-      case_study: "/case-studies/performance-optimization"
-    stats:
-      deployment_reduction: "93%"
-      performance_gain: "71%"
-      response_time: "60%"
-      resource_usage: "40%"
-    features:
-      - "Microservices optimization"
-      - "Database query tuning"
-      - "Caching implementation"
-      - "Resource optimization"
-      - "Performance monitoring"
-    challenges:
-      - "Identifying performance bottlenecks"
-      - "Refactoring without downtime"
-      - "Maintaining backward compatibility"
-    outcomes:
-      - "93% reduction in deployment time"
-      - "71% performance improvement"
-      - "60% faster response times"
-
 categories:
   - name: "All"
     count: 6
+  - name: "SaaS Platform"
+    count: 1
   - name: "AI/ML"
     count: 1
   - name: "Enterprise"
@@ -251,6 +258,4 @@ categories:
   - name: "Microservices"
     count: 1
   - name: "Infrastructure"
-    count: 1
-  - name: "Optimization"
     count: 1

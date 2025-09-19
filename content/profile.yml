@@ -1,14 +1,14 @@
 name: Divyansh Dixit
-title: Senior Full Stack Developer | Java Expert | Cloud Architecture
+title: Founder & Senior Full Stack Developer | AI Innovation | SaaS Architecture
 avatar: /divyansh.png
-description: Building enterprise-grade solutions with expertise in microservices, cloud technologies, and AI-powered applications that drive business innovation.
-tagline: I architect scalable systems—from microservices to AI-powered platforms—with a focus on performance and reliability. 3+ years deep in enterprise development, currently leveraging LLMs for innovation. B.Tech Computer Science (2021)
+description: Founder of ZerobiasAI - building next-generation AI-powered SaaS platforms and enterprise-grade solutions with expertise in microservices, cloud technologies, and advanced AI integrations.
+tagline: I architect and build complete SaaS platforms—from AI-powered recruitment systems to enterprise microservices—with a focus on performance, scalability, and innovation. 5+ years deep in enterprise development, currently pioneering AI-first solutions. B.Tech Computer Science (2021)
 social:
   - name: GitHub
     url: https://github.com/divyanshdixit
     icon: i-ph-github-logo
   - name: LinkedIn
-    url: https://www.linkedin.com/in/divyansh-dixit
+    url: https://www.linkedin.com/in/divyans/
     icon: i-ph-linkedin-logo
 workApproach:
   - Architecting microservices solutions and managing product lifecycles - optimizing performance, scalability, and security for enterprise applications

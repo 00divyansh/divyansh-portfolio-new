@@ -13,9 +13,9 @@
             <span>divyansh</span>
           </div>
           <p class="mb-6 max-w-md">
-            Full-stack developer passionate about building scalable enterprise
-            solutions. Specializing in Java, Spring Boot, Angular, and cloud
-            technologies.
+            Founder & Senior Engineer architecting next-generation AI-powered SaaS platforms. 
+            Building enterprise-grade systems that serve 100k+ users with cutting-edge 
+            technologies and innovative solutions.
           </p>
           <div class="flex items-center gap-4">
             <UButton
@@ -28,7 +28,7 @@
               <UIcon name="i-ph-github-logo" />
             </UButton>
             <UButton
-              to="https://linkedin.com/in/divyansh-dixit"
+              to="https://www.linkedin.com/in/divyans/"
               external
               aria-label="LinkedIn Profile"
               variant="ghost"
@@ -67,18 +67,18 @@
           </ul>
         </div>
 
-        <!-- Services -->
+        <!-- Expertise -->
         <div>
-          <h3 class="mb-4">Services</h3>
+          <h3 class="mb-4">Expertise</h3>
           <ul class="space-y-3">
             <li>
-              <ULink to="/services"> Web Development </ULink>
+              <ULink to="/projects"> AI & SaaS Development </ULink>
             </li>
             <li>
-              <ULink to="/services"> Technical Consulting </ULink>
+              <ULink to="/about"> Technical Leadership </ULink>
             </li>
             <li>
-              <ULink to="/services"> Code Review </ULink>
+              <ULink to="/services#expertise"> Enterprise Architecture </ULink>
             </li>
             <!-- <li>
               <ULink to="/contact"> Get In Touch </ULink>
@@ -98,8 +98,7 @@
           </p>
           <div class="flex items-center gap-6">
             <ULink to="/contact?faqs=1"> FAQs </ULink>
-            <ULink to="/privacy"> Privacy Policy </ULink>
-            <ULink to="/terms"> Terms of Service </ULink>
+            <ULink to="/contact"> Contact </ULink>
           </div>
         </div>
       </div>

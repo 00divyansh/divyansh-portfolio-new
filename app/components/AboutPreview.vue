@@ -10,7 +10,7 @@ const { data: profile } = await useAsyncData("profile", () => {
     <div v-if="profile" class="space-y-16">
       <!-- Header -->
       <div class="text-center space-y-6">
-        <h2>Building Digital Solutions That Drive Results</h2>
+        <h2>Engineering Innovative Solutions</h2>
 
         <p class="max-w-4xl mx-auto">
           {{ profile.description }}
@@ -29,9 +29,8 @@ const { data: profile } = await useAsyncData("profile", () => {
               <div class="space-y-3">
                 <h3>Technical Excellence</h3>
                 <p>
-                  {{ profile?.experience || "12" }}+ years of deep technical
-                  expertise across full-stack development, DevOps, and modern
-                  architectures.
+                  5+ years of deep technical expertise across full-stack 
+                  development, AI/ML integration, and enterprise architecture.
                 </p>
               </div>
             </div>
@@ -46,29 +45,28 @@ const { data: profile } = await useAsyncData("profile", () => {
                 <UIcon name="i-ph-chart-line-up" size="3em" class="text-info" />
               </div>
               <div class="space-y-3">
-                <h3>Proven Results</h3>
+                <h3>Engineering Impact</h3>
                 <p>
-                  {{ profile?.projectsDelivered || "125" }}+ successful projects
-                  delivered with {{ profile?.clientSatisfaction || "100" }}%
-                  client satisfaction rate.
+                  Led development of enterprise systems serving 100k+ users
+                  with 99.9% uptime and 93% deployment efficiency improvements.
                 </p>
               </div>
             </div>
           </div>
         </UCard>
 
-        <!-- True Partnership -->
+        <!-- Team Collaboration -->
         <UCard class="text-center h-full">
           <div class="space-y-6">
             <div class="space-y-4">
               <div class="w-16 h-16 flex items-center justify-center mx-auto">
-                <UIcon name="i-ph-handshake" size="3em" class="text-info" />
+                <UIcon name="i-ph-users" size="3em" class="text-info" />
               </div>
               <div class="space-y-3">
-                <h3>True Partnership</h3>
+                <h3>Team Collaboration</h3>
                 <p>
-                  I work closely with clients to understand their unique needs,
-                  ensuring solutions that truly fit their business.
+                  Experienced in cross-functional teamwork, mentoring developers,
+                  and driving technical excellence in agile environments.
                 </p>
               </div>
             </div>

@@ -17,13 +17,13 @@ const { data: profile } = await useAsyncData("profile", () => {
         <!-- Main Heading -->
         <div class="space-y-4">
           <h2>
-            {{ title || "Ready to Start Your Next Project?" }}
+            {{ title || "Open to New Opportunities" }}
           </h2>
           <p class="max-w-2xl mx-auto">
             {{
               description ||
               profile?.availability?.description ||
-              "Let's discuss your project requirements and create something exceptional together."
+              "Open to full-time positions, technical leadership, and collaborative projects. Experienced with remote work, agile methodologies, and cross-functional team coordination."
             }}
           </p>
         </div>
@@ -36,9 +36,9 @@ const { data: profile } = await useAsyncData("profile", () => {
             </div>
             <div class="text-left">
               <div class="text-sm font-semibold">
-                {{ profile?.availability?.responseTime || "8h" }} Response
+                Quick Response
               </div>
-              <div class="text-[10px]">Quick turnaround</div>
+              <div class="text-[10px]">Professional communication</div>
             </div>
           </div>
 
@@ -47,8 +47,8 @@ const { data: profile } = await useAsyncData("profile", () => {
               <UIcon name="i-ph-shield-check" size="3em" class="text-info" />
             </div>
             <div class="text-left">
-              <div class="text-sm font-semibold">100% Satisfaction</div>
-              <div class="text-[10px]">Guaranteed results</div>
+              <div class="text-sm font-semibold">Quality Focus</div>
+              <div class="text-[10px]">Excellence driven</div>
             </div>
           </div>
 
@@ -57,8 +57,8 @@ const { data: profile } = await useAsyncData("profile", () => {
               <UIcon name="i-ph-chat-circle" size="3em" class="text-info" />
             </div>
             <div class="text-left">
-              <div class="text-sm font-semibold">Free Consultation</div>
-              <div class="text-[10px]">No commitment</div>
+              <div class="text-sm font-semibold">Open Discussion</div>
+              <div class="text-[10px]">Let's connect</div>
             </div>
           </div>
         </div>
@@ -70,11 +70,11 @@ const { data: profile } = await useAsyncData("profile", () => {
             size="xl"
           >
             <UIcon name="i-ph-rocket-launch" />
-            {{ profile?.availability?.cta?.text || "Start Your Project" }}
+            {{ profile?.availability?.cta?.text || "Let's Discuss Opportunities" }}
           </UButton>
           <UButton to="/services" variant="subtle" size="xl">
-            <UIcon name="i-ph-list" />
-            View All Services & Pricing
+            <UIcon name="i-ph-briefcase" />
+            View My Expertise
           </UButton>
           <!--
               <UButton
@@ -92,9 +92,8 @@ const { data: profile } = await useAsyncData("profile", () => {
         <!-- Availability Note -->
         <div v-if="profile?.availability?.status === 'available'">
           <UBadge variant="outline" size="xl">
-            Only {{ profile?.availability?.slotsAvailable || 3 }} project slots
-            available for
-            {{ profile?.availability?.startDate || "August 2025" }}
+            Available for new opportunities starting
+            {{ profile?.availability?.startDate || "immediately" }}
           </UBadge>
         </div>
       </div>

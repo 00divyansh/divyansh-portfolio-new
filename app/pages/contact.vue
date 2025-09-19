@@ -29,8 +29,8 @@ const contactMethods = ref([
     icon: "i-ph-linkedin-logo",
     title: "LinkedIn",
     description: "Connect with me professionally",
-    value: "/in/divyansh-dixit",
-    action: "https://linkedin.com/in/divyansh-dixit",
+    value: "/in/divyans/",
+    action: "https://www.linkedin.com/in/divyans/",
   },
   {
     icon: "i-ph-calendar",
@@ -123,9 +123,9 @@ onMounted(() => {
         class="space-y-12"
       >
         <div class="text-center space-y-6">
-          <h2>Frequently Asked Questions</h2>
+          <h2>Technical Experience & Expertise</h2>
           <p class="max-w-3xl mx-auto">
-            Find answers to common inquiries about my services and processes.
+            Learn about my technical background, project experiences, and engineering leadership approach.
           </p>
         </div>
 
