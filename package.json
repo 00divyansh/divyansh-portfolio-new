@@ -25,7 +25,7 @@
     "node": ">=23",
     "npm": ">=10"
   },
-  "name": "mubaidr.js.org",
+  "name": "divyanshdixit.dev",
   "private": true,
   "scripts": {
     "build": "nuxt build",

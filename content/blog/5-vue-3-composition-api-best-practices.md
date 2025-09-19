@@ -3,7 +3,7 @@ title: "Vue 3 Composition API: Best Practices for Modern Development"
 description: "Discover the most effective patterns and practices for using Vue 3's Composition API in production applications."
 date: 2024-12-12T12:00:00.000Z
 dateUpdated: 2024-12-12T12:00:00.000Z
-author: mubaidr
+author: divyansh
 tags: ["Vue.js", "JavaScript", "Frontend", "Composition API"]
 featured: true
 image: /img/blog/vue3-composition-api.webp

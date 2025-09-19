@@ -1,21 +1,21 @@
 <script setup lang="ts">
 // SEO Meta
 useHead({
-  title: "Privacy Policy - Muhammad Ubaid Raza",
+  title: "Privacy Policy - Divyansh Dixit",
   meta: [
     {
       name: "description",
       content:
-        "Privacy policy for mubaidr.js.org - Learn how I collect, use, and protect your personal information on my website.",
+        "Privacy policy for divyanshdixit.dev - Learn how I collect, use, and protect your personal information on my website.",
     },
     {
       property: "og:title",
-      content: "Privacy Policy - Muhammad Ubaid Raza",
+      content: "Privacy Policy - Divyansh Dixit",
     },
     {
       property: "og:description",
       content:
-        "Privacy policy for mubaidr.js.org - Learn how I collect, use, and protect your personal information on my website.",
+        "Privacy policy for divyanshdixit.dev - Learn how I collect, use, and protect your personal information on my website.",
     },
     {
       name: "robots",
@@ -54,8 +54,8 @@ const lastUpdated = ref("December 1, 2024")
               Introduction
             </h2>
             <p>
-              Welcome to mubaidr.js.org ("I," "my," or "me"). This privacy
-              policy explains how Muhammad Ubaid Raza collects, uses, and
+              Welcome to divyanshdixit.dev ("I," "my," or "me"). This privacy
+              policy explains how Divyansh Dixit collects, uses, and
               protects your personal information when you visit my website or
               use my services. I are committed to protecting your privacy and
               ensuring transparency about my data practices.
@@ -378,7 +378,7 @@ const lastUpdated = ref("December 1, 2024")
               color="primary"
               variant="soft"
               title="Exercise Your Rights"
-              description="To exercise any of these rights, please contact me at hello@mubaidr.js.org. I will respond within 30 days."
+              description="To exercise any of these rights, please contact me at divyanshdixit2001@gmail.com. I will respond within 30 days."
             />
           </div>
         </UCard>
@@ -483,14 +483,14 @@ const lastUpdated = ref("December 1, 2024")
                 <UIcon name="i-ph-envelope" />
                 <div>
                   <p>Email</p>
-                  <p>hello@mubaidr.js.org</p>
+                  <p>divyanshdixit2001@gmail.com</p>
                 </div>
               </div>
               <div class="flex items-center gap-3 p-3">
                 <UIcon name="i-ph-globe" />
                 <div>
                   <p>Website</p>
-                  <p>mubaidr.js.org</p>
+                  <p>divyanshdixit.dev</p>
                 </div>
               </div>
               <div class="flex items-center gap-3 p-3">

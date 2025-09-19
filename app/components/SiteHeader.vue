@@ -22,7 +22,7 @@
             <div class="w-8 h-8 flex items-center justify-center">
               <UIcon name="i-ph-code" />
             </div>
-            <span class="hidden sm:inline">mubaidr</span>
+            <span class="hidden sm:inline">divyansh</span>
           </ULink>
 
           <!-- Desktop Navigation -->

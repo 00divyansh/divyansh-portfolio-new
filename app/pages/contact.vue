@@ -1,12 +1,12 @@
 <script setup lang="ts">
 definePageMeta({
-  title: "Contact - Muhammad Ubaid Raza",
+  title: "Contact - Divyansh Dixit",
   description:
     "Get in touch to discuss your project requirements and start working together.",
 })
 
 useHead({
-  title: "Contact - Muhammad Ubaid Raza",
+  title: "Contact - Divyansh Dixit",
   meta: [
     {
       name: "description",
@@ -22,22 +22,22 @@ const contactMethods = ref([
     icon: "i-ph-envelope",
     title: "Email",
     description: "Send me an email anytime",
-    value: "mubaidr@gmail.com",
-    action: "mailto:hello@mubaidr.com",
+    value: "divyanshdixit2001@gmail.com",
+    action: "mailto:divyanshdixit2001@gmail.com",
   },
   {
     icon: "i-ph-linkedin-logo",
     title: "LinkedIn",
     description: "Connect with me professionally",
-    value: "/in/mubaidr",
-    action: "https://linkedin.com/in/mubaidr",
+    value: "/in/divyansh-dixit",
+    action: "https://linkedin.com/in/divyansh-dixit",
   },
   {
     icon: "i-ph-calendar",
     title: "Schedule a Call",
     description: "Book a 30-min consultation",
-    value: "cal.com/mubaidr",
-    action: "https://cal.com/mubaidr",
+    value: "cal.com/divyanshdixit",
+    action: "https://cal.com/divyanshdixit",
   },
 ])
 

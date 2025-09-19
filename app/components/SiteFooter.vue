@@ -10,16 +10,16 @@
             <div class="w-8 h-8 flex items-center justify-center">
               <UIcon name="i-ph-code" />
             </div>
-            <span>mubaidr</span>
+            <span>divyansh</span>
           </div>
           <p class="mb-6 max-w-md">
-            Full-stack developer passionate about creating exceptional web
-            experiences. Specializing in Vue.js, Nuxt.js, and modern web
+            Full-stack developer passionate about building scalable enterprise
+            solutions. Specializing in Java, Spring Boot, Angular, and cloud
             technologies.
           </p>
           <div class="flex items-center gap-4">
             <UButton
-              to="https://github.com/mubaidr"
+              to="https://github.com/divyanshdixit"
               external
               aria-label="GitHub Profile"
               variant="ghost"
@@ -28,7 +28,7 @@
               <UIcon name="i-ph-github-logo" />
             </UButton>
             <UButton
-              to="https://linkedin.com/in/mubaidr"
+              to="https://linkedin.com/in/divyansh-dixit"
               external
               aria-label="LinkedIn Profile"
               variant="ghost"
@@ -37,7 +37,7 @@
               <UIcon name="i-ph-linkedin-logo" />
             </UButton>
             <UButton
-              to="https://twitter.com/mubaidr"
+              to="https://twitter.com/divyanshdixit"
               external
               aria-label="Twitter Profile"
               variant="ghost"
@@ -93,7 +93,7 @@
           class="flex flex-col md:flex-row justify-between items-center gap-4"
         >
           <p>
-            © {{ new Date().getFullYear() }} Muhammad Ubaid Raza. All rights
+            © {{ new Date().getFullYear() }} Divyansh Dixit. All rights
             reserved.
           </p>
           <div class="flex items-center gap-6">

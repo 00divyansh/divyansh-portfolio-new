@@ -1,21 +1,21 @@
 <script setup lang="ts">
 // SEO Meta
 useHead({
-  title: "Terms of Service - Muhammad Ubaid Raza",
+  title: "Terms of Service - Divyansh Dixit",
   meta: [
     {
       name: "description",
       content:
-        "Terms of service for mubaidr.js.org - Learn about my service terms, client agreements, and professional guidelines for working together.",
+        "Terms of service for divyanshdixit.dev - Learn about my service terms, client agreements, and professional guidelines for working together.",
     },
     {
       property: "og:title",
-      content: "Terms of Service - Muhammad Ubaid Raza",
+      content: "Terms of Service - Divyansh Dixit",
     },
     {
       property: "og:description",
       content:
-        "Terms of service for mubaidr.js.org - Learn about my service terms, client agreements, and professional guidelines for working together.",
+        "Terms of service for divyanshdixit.dev - Learn about my service terms, client agreements, and professional guidelines for working together.",
     },
     {
       name: "robots",
@@ -50,9 +50,9 @@ const lastUpdated = ref("December 1, 2024")
             Introduction
           </h2>
           <p>
-            Welcome to mubaidr.js.org ("I," "my," or "me"). These Terms of
+            Welcome to divyanshdixit.dev ("I," "my," or "me"). These Terms of
             Service ("Terms") govern your use of my website and any professional
-            services provided by Muhammad Ubaid Raza ("I," "my," or "me"). By
+            services provided by Divyansh Dixit ("I," "my," or "me"). By
             accessing my website or engaging my services, you agree to be bound
             by these Terms.
           </p>
@@ -678,7 +678,7 @@ const lastUpdated = ref("December 1, 2024")
               <UIcon name="i-ph-envelope" class="w-5 h-5" />
               <div>
                 <p>Email</p>
-                <p>hello@mubaidr.js.org</p>
+                <p>divyanshdixit2001@gmail.com</p>
               </div>
             </div>
             <div class="flex items-center gap-3 p-3">
@@ -712,7 +712,7 @@ const lastUpdated = ref("December 1, 2024")
             Start a Project
           </UButton>
           <UButton
-            href="https://cal.com/mubaidr"
+            href="https://cal.com/divyanshdixit"
             external
             size="xl"
             variant="outline"

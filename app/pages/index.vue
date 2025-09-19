@@ -61,14 +61,14 @@ if (profile.value) {
     defineWebSite({
       name: profile.value.name,
       description: profile.value.description,
-      url: "https://mubaidr.js.org",
+      url: "https://divyanshdixit.dev",
     }),
     definePerson({
       name: profile.value.name,
       jobTitle: profile.value.title,
       description: profile.value.description,
       image: profile.value.avatar,
-      url: "https://mubaidr.js.org",
+      url: "https://divyanshdixit.dev",
       sameAs: profile.value.social?.map((s) => s.url) || [],
     }),
   ])
@@ -160,7 +160,7 @@ if (profile.value) {
           </UButton>
 
           <UButton
-            href="https://cal.com/mubaidr"
+            href="https://cal.com/divyanshdixit"
             external
             size="xl"
             variant="subtle"

@@ -1,8 +1,8 @@
 <script setup lang="ts">
 definePageMeta({
-  title: "About - Muhammad Ubaid Raza",
+  title: "About - Divyansh Dixit",
   description:
-    "Learn about my professional journey, experience, education, and skills in web development.",
+    "Learn about my professional journey, experience, education, and expertise in enterprise software development.",
 })
 
 // Fetch professional journey data from Nuxt Content collection
@@ -19,12 +19,12 @@ const { data: _profile } = await useAsyncData("profile", () => {
 })
 
 useHead({
-  title: "About - Muhammad Ubaid Raza",
+  title: "About - Divyansh Dixit",
   meta: [
     {
       name: "description",
       content:
-        "Learn about my professional journey, experience, education, and skills in web development.",
+        "Learn about my professional journey, experience, education, and expertise in enterprise software development.",
     },
   ],
 })

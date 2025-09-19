@@ -78,7 +78,7 @@ const { data: profile } = await useAsyncData("profile", () => {
           </UButton>
           <!--
               <UButton
-                href="https://cal.com/mubaidr"
+                href="https://cal.com/divyanshdixit"
                 external
                 size="xl"
                 variant="soft"

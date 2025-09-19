@@ -1,222 +1,229 @@
 services:
   - id: 1
-    title: "Full-Stack Development"
-    description: "End-to-end web application development using modern frameworks and technologies."
+    title: "Enterprise Java Development"
+    description: "Building scalable enterprise applications using Java, Spring Boot, and microservices architecture."
     icon: "i-ph-code"
     category: "Development"
     featured: true
     features:
-      - "Vue.js / Nuxt.js Applications"
-      - "React / Next.js Development"
-      - "Node.js Backend Services"
-      - "Database Design & Integration"
-      - "API Development & Integration"
+      - "Spring Boot Microservices"
+      - "RESTful API Development"
+      - "Database Design & Optimization"
+      - "Performance Tuning"
+      - "Security Implementation (OAuth, JWT)"
+      - "100% Code Coverage with TDD"
+    pricing:
+      hourly: 80
+      currency: "USD"
+      description: "From $80/hour"
+    timeline: "2-12 weeks"
+    suitable: "Enterprise, Startups, SMEs"
+    technologies:
+      - "Java"
+      - "Spring Boot"
+      - "PostgreSQL"
+      - "MongoDB"
+      - "Elasticsearch"
+      - "AWS"
+
+  - id: 2
+    title: "Full-Stack Application Development"
+    description: "End-to-end application development with Angular frontend and Java/Spring backend."
+    icon: "i-ph-desktop"
+    category: "Development"
+    featured: true
+    features:
+      - "Angular Single Page Applications"
+      - "Responsive UI Development"
+      - "Backend API Integration"
+      - "Real-time Features"
+      - "Cross-browser Compatibility"
+      - "Mobile-responsive Design"
+    pricing:
+      hourly: 75
+      currency: "USD"
+      description: "From $75/hour"
+    timeline: "3-16 weeks"
+    suitable: "All business sizes"
+    technologies:
+      - "Angular"
+      - "TypeScript"
+      - "Java"
+      - "Spring Boot"
+      - "HTML5/CSS3"
+      - "Bootstrap"
+
+  - id: 3
+    title: "AI & LLM Integration"
+    description: "Integrating Large Language Models and AI capabilities into existing applications."
+    icon: "i-ph-robot"
+    category: "Innovation"
+    featured: true
+    features:
+      - "LLM Integration (GPT, Claude)"
+      - "Automated Workflow Design"
+      - "Natural Language Processing"
+      - "AI-powered Features"
+      - "Custom Model Training"
       - "Performance Optimization"
     pricing:
       hourly: 100
       currency: "USD"
       description: "From $100/hour"
-    timeline: "2-12 weeks"
-    suitable: "Startups, SMEs, Enterprise"
+    timeline: "4-12 weeks"
+    suitable: "Enterprises, Tech Companies"
     technologies:
-      - "Vue.js"
-      - "React"
-      - "Node.js"
-      - "TypeScript"
+      - "Python"
+      - "LLMs"
+      - "OpenAI API"
+      - "Machine Learning"
+      - "REST APIs"
+
+  - id: 4
+    title: "Microservices Architecture"
+    description: "Designing and implementing scalable microservices architecture for enterprise applications."
+    icon: "i-ph-circles-three"
+    category: "Architecture"
+    featured: false
+    features:
+      - "Service Decomposition"
+      - "API Gateway Implementation"
+      - "Service Discovery"
+      - "Circuit Breaker Pattern"
+      - "Event-Driven Architecture"
+      - "Container Orchestration"
+    pricing:
+      hourly: 90
+      currency: "USD"
+      description: "From $90/hour"
+    timeline: "4-20 weeks"
+    suitable: "Enterprise, Large Teams"
+    technologies:
+      - "Spring Cloud"
+      - "Docker"
+      - "Kubernetes"
+      - "API Gateway"
+      - "Message Queues"
+      - "Service Mesh"
+
+  - id: 5
+    title: "Database Optimization & Migration"
+    description: "Optimizing database performance and migrating between different database systems."
+    icon: "i-ph-database"
+    category: "Infrastructure"
+    featured: false
+    features:
+      - "Query Optimization"
+      - "Index Management"
+      - "Database Migration"
+      - "NoSQL Implementation"
+      - "Caching Strategies"
+      - "Performance Monitoring"
+    pricing:
+      hourly: 85
+      currency: "USD"
+      description: "From $85/hour"
+    timeline: "2-8 weeks"
+    suitable: "All business sizes"
+    technologies:
+      - "MySQL"
       - "PostgreSQL"
       - "MongoDB"
+      - "Elasticsearch"
+      - "Redis"
+      - "Aerospike"
 
-  - id: 2
-    title: "Technical Consulting"
-    description: "Strategic technical guidance and architecture planning for your projects."
-    icon: "i-ph-lightbulb"
+  - id: 6
+    title: "Technical Consulting & Code Review"
+    description: "Providing expert technical guidance, code reviews, and architectural recommendations."
+    icon: "i-ph-magnifying-glass"
     category: "Consulting"
-    featured: true
+    featured: false
     features:
-      - "Technology Stack Selection"
-      - "Architecture Design"
-      - "Code Review & Audit"
+      - "Architecture Review"
+      - "Code Quality Assessment"
       - "Performance Analysis"
-      - "Scalability Planning"
+      - "Security Audit"
       - "Best Practices Implementation"
+      - "Team Mentoring"
     pricing:
-      hourly: 120
+      hourly: 95
       currency: "USD"
-      description: "From $120/hour"
+      description: "From $95/hour"
     timeline: "1-4 weeks"
     suitable: "All business sizes"
     technologies:
-      - "System Architecture"
-      - "Performance Optimization"
-      - "Security Best Practices"
-      - "Scalability Solutions"
-
-  - id: 3
-    title: "Project Leadership"
-    description: "Lead and manage development teams to deliver successful projects."
-    icon: "i-ph-users"
-    category: "Management"
-    featured: true
-    features:
-      - "Team Management"
-      - "Project Planning"
-      - "Agile Methodologies"
-      - "Quality Assurance"
-      - "Risk Management"
-      - "Stakeholder Communication"
-    pricing:
-      hourly: null
-      currency: "USD"
-      description: "Custom pricing"
-    timeline: "Project-based"
-    suitable: "Medium to large teams"
-    technologies:
-      - "Agile/Scrum"
-      - "Project Management Tools"
-      - "Quality Assurance"
-      - "Team Coordination"
-
-  - id: 4
-    title: "Code Review & Mentoring"
-    description: "Improve code quality and mentor development teams."
-    icon: "i-ph-graduation-cap"
-    category: "Education"
-    featured: false
-    features:
-      - "Code Quality Assessment"
-      - "Security Review"
-      - "Performance Optimization"
-      - "Developer Mentoring"
-      - "Training Sessions"
-      - "Documentation Review"
-    pricing:
-      hourly: 100
-      currency: "USD"
-      description: "From $100/hour"
-    timeline: "Ongoing"
-    suitable: "Teams of all sizes"
-    technologies:
-      - "Code Analysis Tools"
-      - "Best Practices"
-      - "Security Patterns"
-      - "Performance Monitoring"
-
-  - id: 5
-    title: "Browser Extension Development"
-    description: "Custom browser extensions for Chrome, Firefox, and other browsers."
-    icon: "i-ph-puzzle-piece"
-    category: "Development"
-    featured: false
-    features:
-      - "Chrome Extension Development"
-      - "Firefox Add-on Development"
-      - "Cross-browser Compatibility"
-      - "Manifest V3 Migration"
-      - "API Integration"
-      - "User Interface Design"
-    pricing:
-      hourly: 125
-      currency: "USD"
-      description: "From $125/hour"
-    timeline: "2-6 weeks"
-    suitable: "Businesses, Startups"
-    technologies:
-      - "WebExtensions API"
-      - "Vue.js"
-      - "TypeScript"
-      - "Manifest V3"
-
-  - id: 6
-    title: "API Development & Integration"
-    description: "RESTful APIs, GraphQL endpoints, and third-party integrations."
-    icon: "i-ph-plugs-connected"
-    category: "Development"
-    featured: false
-    features:
-      - "RESTful API Design"
-      - "GraphQL Implementation"
-      - "Third-party Integrations"
-      - "API Documentation"
-      - "Authentication & Security"
-      - "Rate Limiting & Caching"
-    pricing:
-      hourly: 125
-      currency: "USD"
-      description: "From $125/hour"
-    timeline: "1-8 weeks"
-    suitable: "All business sizes"
-    technologies:
-      - "Node.js"
-      - "Express.js"
-      - "GraphQL"
-      - "OpenAPI"
-      - "JWT"
-      - "OAuth"
+      - "Java"
+      - "Spring Boot"
+      - "Angular"
+      - "System Design"
+      - "Code Analysis"
+      - "Testing Strategies"
 
 process:
   - step: 1
-    title: "Discovery"
-    description: "We discuss your project requirements, goals, and timeline."
+    title: "Requirements Analysis"
+    description: "Understanding your project requirements, technical needs, and business goals."
     icon: "i-ph-chat-circle"
     details:
       - "Initial consultation call"
-      - "Requirements gathering"
-      - "Goal definition"
-      - "Timeline estimation"
+      - "Requirements documentation"
+      - "Technical feasibility study"
+      - "Timeline and budget estimation"
 
   - step: 2
-    title: "Planning"
-    description: "I create a detailed project plan with milestones and deliverables."
-    icon: "i-ph-calendar"
+    title: "System Design"
+    description: "Creating comprehensive system architecture and technical design documents."
+    icon: "i-ph-blueprint"
     details:
-      - "Technical architecture design"
-      - "Project roadmap creation"
-      - "Milestone definition"
-      - "Resource allocation"
+      - "High-level architecture design"
+      - "Database schema design"
+      - "API specification"
+      - "Technology stack selection"
 
   - step: 3
-    title: "Development"
-    description: "Regular updates and iterative development with your feedback."
+    title: "Agile Development"
+    description: "Iterative development with regular sprints and continuous feedback."
     icon: "i-ph-code"
     details:
-      - "Agile development approach"
-      - "Regular progress updates"
-      - "Continuous feedback integration"
-      - "Quality assurance testing"
+      - "Sprint planning"
+      - "Test-driven development"
+      - "Regular code reviews"
+      - "Continuous integration"
 
   - step: 4
-    title: "Delivery"
-    description: "Final testing, deployment, and handover with documentation."
+    title: "Deployment & Support"
+    description: "Deploying to production with comprehensive testing and documentation."
     icon: "i-ph-rocket"
     details:
-      - "Comprehensive testing"
+      - "UAT and performance testing"
       - "Production deployment"
-      - "Documentation handover"
-      - "Training and support"
+      - "Documentation delivery"
+      - "Post-deployment support"
 
 packages:
-  - name: "Consultation"
-    price: 120
+  - name: "Technical Consulting"
+    price: 95
     currency: "USD"
     period: "per hour"
-    description: "Perfect for getting expert advice on your project"
+    description: "Expert technical advice and code review"
     features:
-      - "Technical consultation"
       - "Architecture review"
-      - "Technology recommendations"
-      - "Project planning"
-      - "Email support"
+      - "Code quality assessment"
+      - "Performance optimization"
+      - "Security recommendations"
+      - "Best practices guidance"
     highlighted: false
     category: "consulting"
 
-  - name: "Development"
-    price: 100
+  - name: "Full-Stack Development"
+    price: 75
     currency: "USD"
     period: "per hour"
-    description: "Full-stack development services"
+    description: "Complete application development services"
     features:
-      - "Custom web applications"
-      - "Frontend & backend development"
+      - "Frontend development (Angular)"
+      - "Backend development (Java/Spring)"
       - "Database design"
       - "API development"
       - "Testing & deployment"
@@ -224,17 +231,17 @@ packages:
     highlighted: true
     category: "development"
 
-  - name: "Project Leadership"
+  - name: "Enterprise Solutions"
     price: null
     currency: "USD"
     period: "custom pricing"
-    description: "Complete project management and leadership"
+    description: "Large-scale enterprise application development"
     features:
-      - "Team management"
-      - "Project planning"
-      - "Quality assurance"
-      - "Risk management"
-      - "Stakeholder communication"
-      - "Delivery guarantee"
+      - "Microservices architecture"
+      - "Scalability planning"
+      - "Performance optimization"
+      - "Security implementation"
+      - "Team coordination"
+      - "Long-term support"
     highlighted: false
-    category: "management"
+    category: "enterprise"

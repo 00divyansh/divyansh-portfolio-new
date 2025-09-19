@@ -1,4 +1,4 @@
-# Muhammad Ubaid Raza - Personal Portfolio & Blog
+# Divyansh Dixit - Personal Portfolio & Blog
 
 A modern, high-performance personal portfolio and blog website built with **Nuxt 3**, showcasing professional experience, projects, services, and technical insights.
 
@@ -6,7 +6,7 @@ A modern, high-performance personal portfolio and blog website built with **Nuxt
 
 ## 🌟 Live
 
-[https://mubaidr.js.org](https://mubaidr.js.org)
+[https://divyanshdixit.dev](https://divyanshdixit.dev)
 
 ## ✨ Features
 
@@ -127,7 +127,7 @@ A modern, high-performance personal portfolio and blog website built with **Nuxt
 │   ├── img/                 # Images and media
 │   ├── brand.png           # Brand assets
 │   ├── favicon.png
-│   └── mubaidr.png
+│   └── divyansh.png
 ├── types/                   # TypeScript definitions
 ├── nuxt.config.ts          # Nuxt configuration
 ├── content.config.ts       # Content configuration
@@ -147,8 +147,8 @@ A modern, high-performance personal portfolio and blog website built with **Nuxt
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/mubaidr/mubaidr.js.org.git
-cd mubaidr.js.org
+git clone https://github.com/divyanshdixit/divyansh-portfolio.git
+cd divyansh-portfolio
 ```
 
 2. **Install dependencies**
@@ -201,7 +201,7 @@ description: "Brief description of your post"
 date: "2025-01-01"
 tags: ["nuxt", "vue", "typescript"]
 image: "/img/blog/your-post/featured.webp"
-author: "mubaidr"
+author: "divyansh"
 ---
 
 # Your Blog Content
@@ -297,12 +297,12 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-**Muhammad Ubaid Raza**
+**Divyansh Dixit**
 
-- Website: [https://mubaidr.js.org](https://mubaidr.js.org)
-- GitHub: [@mubaidr](https://github.com/mubaidr)
-- LinkedIn: [Muhammad Ubaid Raza](https://linkedin.com/in/mubaidr)
-- Email: [mubaidr@gmail.com](mailto:mubaidr@gmail.com)
+- Website: [https://divyanshdixit.dev](https://divyanshdixit.dev)
+- GitHub: [@divyanshdixit](https://github.com/divyanshdixit)
+- LinkedIn: [Divyansh Dixit](https://linkedin.com/in/divyansh-dixit)
+- Email: [divyanshdixit2001@gmail.com](mailto:divyanshdixit2001@gmail.com)
 
 ---
 

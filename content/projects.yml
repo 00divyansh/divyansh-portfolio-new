@@ -1,306 +1,256 @@
 projects:
   - id: 1
-    title: "Vue Color Avatar"
-    description: "A Vue.js component library for generating beautiful, customizable SVG avatars. Used by thousands of developers worldwide."
-    longDescription: "Vue Color Avatar is a comprehensive Vue.js component library that allows developers to generate beautiful, customizable SVG avatars programmatically. The library supports various customization options including colors, shapes, accessories, and facial features, making it perfect for user profile pictures, placeholder images, and design systems."
-    image: "/img/projects/vue-color-avatar.png"
+    title: "AI-Powered Interview Automation System"
+    description: "Automated interview screening system using Large Language Models, reducing manual screening time by 75%."
+    longDescription: "Developed an innovative AI-powered system that automates the technical interview screening process using advanced Large Language Models. The system evaluates candidate responses, provides intelligent scoring, and generates comprehensive assessment reports, significantly improving hiring efficiency and accuracy."
+    image: "/img/projects/ai-interview.png"
     technologies:
-      - "Vue.js"
-      - "TypeScript"
-      - "SVG"
-      - "Vite"
-      - "Pinia"
-      - "Tailwind CSS"
-    category: "Open Source"
+      - "Python"
+      - "LLMs"
+      - "Java"
+      - "Spring Boot"
+      - "Angular"
+      - "PostgreSQL"
+    category: "AI/ML"
     featured: true
     status: "active"
-    startDate: "2022-01-15"
+    startDate: "2024-11-01"
     endDate: 9999-12-31
     links:
-      github: "https://github.com/mubaidr/vue-color-avatar"
-      demo: "https://vue-color-avatar.vercel.app/"
-      npm: "https://www.npmjs.com/package/vue-color-avatar"
-      documentation: "https://vue-color-avatar.vercel.app/docs"
+      demo: "#"
+      case_study: "/case-studies/ai-interview-system"
     stats:
-      stars: "1.2k"
-      downloads: "50k+"
-      forks: "180"
-      contributors: "12"
+      efficiency: "75%"
+      accuracy: "90%"
+      candidates: "1000+"
+      time_saved: "500+ hours"
     features:
-      - "50+ customizable avatar options"
-      - "TypeScript support"
-      - "Tree-shakable components"
-      - "SSR compatible"
-      - "Lightweight (< 20kb)"
+      - "Automated candidate screening"
+      - "LLM-powered evaluation"
+      - "Real-time scoring"
+      - "Comprehensive reports"
+      - "Multi-language support"
     challenges:
-      - "Creating scalable SVG generation system"
-      - "Implementing efficient randomization algorithms"
-      - "Ensuring cross-browser compatibility"
+      - "Integrating LLMs with existing systems"
+      - "Ensuring evaluation accuracy"
+      - "Handling scale and performance"
     outcomes:
-      - "1.2k+ GitHub stars"
-      - "50k+ monthly NPM downloads"
-      - "Used by 500+ projects worldwide"
+      - "75% reduction in screening time"
+      - "90% accuracy in candidate assessment"
+      - "Processed 1000+ candidates"
 
   - id: 2
-    title: "Browser Extension Template"
-    description: "A modern template for building cross-browser extensions using Vue 3, TypeScript, and Manifest V3."
-    longDescription: "A comprehensive starter template for building modern browser extensions that work across Chrome, Firefox, Edge, and Safari. Built with Vue 3, TypeScript, and the latest Manifest V3 specifications, this template provides a solid foundation for extension development with hot reloading, automated building, and cross-browser compatibility."
-    image: "/img/projects/browser-extension.png"
+    title: "AMCAT Universal Player"
+    description: "Backend system for psychometric assessment with ML-powered scoring algorithms for career-based exams."
+    longDescription: "Collaborated with ML engineers to develop sophisticated psychometric scoring algorithms for the AMCAT backend system. Implemented high-performance caching with Aerospike to handle high-volume assessment traffic, ensuring seamless operation during peak exam periods."
+    image: "/img/projects/amcat.png"
     technologies:
-      - "Vue 3"
-      - "TypeScript"
-      - "WebExtensions API"
-      - "Vite"
-      - "Manifest V3"
-      - "SCSS"
-    category: "Development Tools"
-    featured: true
-    status: "active"
-    startDate: "2021-08-10"
-    endDate: 9999-12-31
-    links:
-      github: "https://github.com/mubaidr/vue-browser-extension-template"
-      demo: "https://chrome.google.com/webstore/detail/example"
-      documentation: "https://github.com/mubaidr/vue-browser-extension-template#readme"
-    stats:
-      stars: "800"
-      users: "10k+"
-      forks: "120"
-      downloads: "25k+"
-    features:
-      - "Cross-browser compatibility"
-      - "Hot reload development"
-      - "TypeScript support"
-      - "Automated build process"
-      - "Manifest V3 ready"
-    challenges:
-      - "Cross-browser API differences"
-      - "Manifest V3 migration complexities"
-      - "Build optimization for extensions"
-    outcomes:
-      - "800+ GitHub stars"
-      - "10k+ active users"
-      - "Featured in Chrome Web Store"
-
-  - id: 3
-    title: "E-commerce Platform"
-    description: "Full-stack e-commerce solution with advanced features like real-time inventory, payment processing, and analytics."
-    longDescription: "A comprehensive e-commerce platform built for scalability and performance. Features include real-time inventory management, multiple payment gateway integration, advanced analytics dashboard, customer management system, and mobile-responsive design. Built with modern technologies to handle high traffic and transaction volumes."
-    image: "/img/projects/ecommerce.png"
-    technologies:
-      - "Nuxt.js"
-      - "Node.js"
-      - "PostgreSQL"
-      - "Stripe"
-      - "Redis"
-      - "Docker"
-    category: "Web Application"
-    featured: true
-    status: "completed"
-    startDate: "2023-03-01"
-    endDate: "2023-10-15"
-    links:
-      demo: "https://example-ecommerce.com"
-      case_study: "/case-studies/ecommerce-platform"
-    stats:
-      revenue: "$100k+"
-      orders: "5k+"
-      users: "15k+"
-      uptime: "99.9%"
-    features:
-      - "Multi-vendor marketplace"
-      - "Real-time inventory tracking"
-      - "Advanced analytics dashboard"
-      - "Mobile-responsive design"
-      - "Payment gateway integration"
-      - "Order management system"
-    challenges:
-      - "Handling high-volume transactions"
-      - "Real-time inventory synchronization"
-      - "Payment security implementation"
-    outcomes:
-      - "$100k+ in processed transactions"
-      - "5k+ successful orders"
-      - "15k+ registered users"
-      - "99.9% uptime achieved"
-
-  - id: 4
-    title: "Task Management SaaS"
-    description: "Cloud-based project management tool with team collaboration, time tracking, and reporting features."
-    longDescription: "A comprehensive SaaS solution for project and task management designed for teams of all sizes. Features real-time collaboration, advanced time tracking, custom reporting, integration with popular tools, and role-based access control. Built with scalability and user experience as primary focuses."
-    image: "/img/projects/task-management.png"
-    technologies:
-      - "React"
-      - "Express.js"
-      - "MongoDB"
-      - "Socket.io"
-      - "JWT"
+      - "PHP"
+      - "Laravel"
+      - "MySQL"
+      - "Aerospike"
       - "AWS"
-    category: "SaaS"
-    featured: false
-    status: "active"
-    startDate: "2022-06-01"
-    endDate: 9999-12-31
-    links:
-      demo: "https://example-tasks.com"
-      case_study: "/case-studies/task-management-saas"
-    stats:
-      users: "2k+"
-      teams: "500+"
-      projects: "10k+"
-      retention: "85%"
-    features:
-      - "Real-time collaboration"
-      - "Time tracking & reporting"
-      - "Custom workflows"
-      - "Team management"
-      - "Third-party integrations"
-      - "Mobile applications"
-    challenges:
-      - "Real-time synchronization across users"
-      - "Scalable notification system"
-      - "Complex permission management"
-    outcomes:
-      - "2k+ active users"
-      - "500+ teams using the platform"
-      - "85% user retention rate"
-
-  - id: 5
-    title: "Developer Portfolio"
-    description: "Modern, responsive portfolio website built with Nuxt 3, featuring glass morphism design and smooth animations."
-    longDescription: "A cutting-edge portfolio website showcasing modern web development techniques. Features glass morphism design, smooth animations, dark/light mode, blog integration, contact forms, and optimized performance. Built with Nuxt 3 and deployed with modern DevOps practices."
-    image: "/img/projects/portfolio.png"
-    technologies:
-      - "Nuxt 3"
-      - "Tailwind CSS"
-      - "TypeScript"
-      - "Nuxt Content"
-      - "Nuxt UI"
-      - "Vercel"
-    category: "Portfolio"
-    featured: false
-    status: "active"
-    startDate: "2023-11-01"
-    endDate: "9999-12-31"
-    links:
-      github: "https://github.com/mubaidr/portfolio"
-      demo: "https://mubaidr.js.org"
-    stats:
-      lighthouse: "100"
-      visitors: "5k+"
-      bounce_rate: "25%"
-      load_time: "0.8s"
-    features:
-      - "Glass morphism design"
-      - "Dark/light mode toggle"
-      - "Blog integration"
-      - "Contact form"
-      - "SEO optimized"
-      - "Performance focused"
-    challenges:
-      - "Achieving perfect Lighthouse scores"
-      - "Cross-browser glass morphism compatibility"
-      - "Optimizing animations for performance"
-    outcomes:
-      - "100/100 Lighthouse score"
-      - "5k+ monthly visitors"
-      - "25% bounce rate"
-      - "0.8s average load time"
-
-  - id: 6
-    title: "API Documentation Tool"
-    description: "Interactive API documentation generator with live testing capabilities and beautiful UI."
-    longDescription: "A developer-focused tool for generating beautiful, interactive API documentation. Features live testing capabilities, code examples in multiple languages, authentication testing, and collaborative features. Designed to make API documentation both beautiful and functional."
-    image: "/img/projects/api-docs.png"
-    technologies:
-      - "Vue.js"
-      - "Express.js"
-      - "OpenAPI"
-      - "Prism.js"
-      - "MongoDB"
-      - "Docker"
-    category: "Development Tools"
-    featured: false
+      - "Machine Learning"
+    category: "Enterprise"
+    featured: true
     status: "completed"
-    startDate: "2022-01-10"
-    endDate: "2022-05-20"
+    startDate: "2023-01-15"
+    endDate: "2024-06-30"
     links:
-      github: "https://github.com/mubaidr/api-docs-generator"
-      demo: "https://api-docs-example.com"
+      demo: "#"
+      case_study: "/case-studies/amcat-player"
     stats:
-      stars: "450"
-      downloads: "15k+"
-      users: "3k+"
-      apis_documented: "1k+"
-    features:
-      - "Interactive API testing"
-      - "Multiple language examples"
-      - "Authentication support"
-      - "Collaborative editing"
-      - "Custom branding"
-      - "Export capabilities"
-    challenges:
-      - "Supporting multiple API specifications"
-      - "Real-time collaboration implementation"
-      - "Code generation for multiple languages"
-    outcomes:
-      - "450+ GitHub stars"
-      - "15k+ downloads"
-      - "3k+ active users"
-      - "1k+ APIs documented"
-
-  - id: 7
-    title: "Real-time Chat Application"
-    description: "Scalable chat application with video calling, file sharing, and team channels."
-    longDescription: "Enterprise-grade chat application supporting real-time messaging, video calls, file sharing, and team collaboration. Built with modern technologies to support thousands of concurrent users with features like message encryption, custom emojis, and integration capabilities."
-    image: "/img/projects/chat-app.png"
-    technologies:
-      - "Vue.js"
-      - "Socket.io"
-      - "Node.js"
-      - "Redis"
-      - "WebRTC"
-      - "PostgreSQL"
-    category: "Web Application"
-    featured: false
-    status: "completed"
-    startDate: "2021-09-01"
-    endDate: "2022-02-28"
-    links:
-      demo: "https://example-chat.com"
-      case_study: "/case-studies/chat-application"
-    stats:
-      concurrent_users: "5k+"
-      messages_sent: "1M+"
-      uptime: "99.8%"
+      users: "100k+"
+      exams: "50k+"
+      uptime: "99.99%"
       response_time: "50ms"
     features:
-      - "Real-time messaging"
-      - "Video/audio calls"
-      - "File sharing"
-      - "Team channels"
-      - "Message encryption"
-      - "Mobile support"
+      - "Psychometric scoring algorithms"
+      - "Real-time assessment processing"
+      - "In-memory caching"
+      - "High-volume handling"
+      - "Statistical analysis"
     challenges:
-      - "Scaling WebSocket connections"
-      - "Implementing end-to-end encryption"
-      - "Managing video call quality"
+      - "Handling concurrent high-volume traffic"
+      - "Implementing complex scoring algorithms"
+      - "Maintaining sub-100ms response times"
     outcomes:
-      - "5k+ concurrent users supported"
-      - "1M+ messages processed"
-      - "99.8% uptime achieved"
+      - "Processed 50k+ examinations"
+      - "99.99% uptime achieved"
       - "50ms average response time"
+
+  - id: 3
+    title: "TC+ ATS Integration Platform"
+    description: "Comprehensive integration platform connecting TC+ with multiple Application Tracking Systems."
+    longDescription: "Built robust REST controllers and APIs for seamless integration of TC+ talent assessment platform with various ATS systems. Implemented scalable logging infrastructure using MongoDB and Elasticsearch for real-time monitoring and analysis."
+    image: "/img/projects/tc-plus.png"
+    technologies:
+      - "Java"
+      - "Spring Boot"
+      - "MongoDB"
+      - "Elasticsearch"
+      - "AWS"
+      - "REST APIs"
+    category: "Integration"
+    featured: true
+    status: "active"
+    startDate: "2021-07-01"
+    endDate: 9999-12-31
+    links:
+      demo: "#"
+      case_study: "/case-studies/tc-plus-integration"
+    stats:
+      integrations: "25+"
+      api_calls: "1M+/day"
+      performance: "70%"
+      reliability: "99.9%"
+    features:
+      - "Multi-ATS compatibility"
+      - "Real-time data sync"
+      - "Scalable logging"
+      - "Performance monitoring"
+      - "Error handling"
+    challenges:
+      - "Supporting multiple ATS APIs"
+      - "Ensuring data consistency"
+      - "Scaling to millions of API calls"
+    outcomes:
+      - "25+ successful ATS integrations"
+      - "70% performance improvement after Elasticsearch migration"
+      - "Handling 1M+ API calls daily"
+
+  - id: 4
+    title: "CASPER Microservice Architecture"
+    description: "Core backend microservice with secure REST APIs, achieving 100% code coverage through TDD."
+    longDescription: "Owned and developed CASPER, a critical backend microservice handling core business logic. Implemented secure authentication using OAuth 2.0 and JWT, achieved 100% code coverage through rigorous test-driven development, reducing production bugs by 75%."
+    image: "/img/projects/casper.png"
+    technologies:
+      - "PHP"
+      - "CodeIgniter"
+      - "MongoDB"
+      - "OAuth 2.0"
+      - "JWT"
+      - "TDD"
+    category: "Microservices"
+    featured: false
+    status: "active"
+    startDate: "2023-07-01"
+    endDate: 9999-12-31
+    links:
+      demo: "#"
+      case_study: "/case-studies/casper-microservice"
+    stats:
+      coverage: "100%"
+      bugs_reduced: "75%"
+      deployment_time: "93%"
+      performance: "71%"
+    features:
+      - "Secure authentication"
+      - "100% test coverage"
+      - "Microservices decoupling"
+      - "Performance optimization"
+      - "Comprehensive documentation"
+    challenges:
+      - "Achieving 100% code coverage"
+      - "Decoupling monolithic architecture"
+      - "Implementing secure authentication"
+    outcomes:
+      - "100% code coverage achieved"
+      - "75% reduction in production bugs"
+      - "93% faster deployment time"
+
+  - id: 5
+    title: "Enterprise Logging Infrastructure"
+    description: "Scalable logging solution using MongoDB and Elasticsearch for real-time log analysis."
+    longDescription: "Engineered a comprehensive logging infrastructure to handle millions of log entries daily. Built with MongoDB for storage and Elasticsearch for powerful search capabilities, enabling real-time monitoring and debugging of distributed systems."
+    image: "/img/projects/logging.png"
+    technologies:
+      - "MongoDB"
+      - "Elasticsearch"
+      - "Java"
+      - "Spring Boot"
+      - "Kibana"
+      - "AWS"
+    category: "Infrastructure"
+    featured: false
+    status: "completed"
+    startDate: "2022-03-01"
+    endDate: "2023-05-31"
+    links:
+      demo: "#"
+      case_study: "/case-studies/logging-infrastructure"
+    stats:
+      logs_processed: "10M+/day"
+      search_time: "<100ms"
+      retention: "90 days"
+      availability: "99.95%"
+    features:
+      - "Real-time log ingestion"
+      - "Advanced search capabilities"
+      - "Custom dashboards"
+      - "Alert mechanisms"
+      - "Log retention policies"
+    challenges:
+      - "Handling high-volume log ingestion"
+      - "Optimizing search performance"
+      - "Managing storage costs"
+    outcomes:
+      - "Processing 10M+ logs daily"
+      - "Sub-100ms search response time"
+      - "99.95% system availability"
+
+  - id: 6
+    title: "Performance Optimization Initiative"
+    description: "Led major performance optimization reducing deployment time by 93% and improving system performance by 71%."
+    longDescription: "Spearheaded a comprehensive performance optimization initiative focusing on microservices architecture, database optimization, and caching strategies. Achieved remarkable improvements in deployment efficiency and system responsiveness through systematic refactoring and optimization."
+    image: "/img/projects/optimization.png"
+    technologies:
+      - "Java"
+      - "Spring Boot"
+      - "Elasticsearch"
+      - "Redis"
+      - "Docker"
+      - "Performance Testing"
+    category: "Optimization"
+    featured: false
+    status: "completed"
+    startDate: "2023-08-01"
+    endDate: "2024-02-28"
+    links:
+      demo: "#"
+      case_study: "/case-studies/performance-optimization"
+    stats:
+      deployment_reduction: "93%"
+      performance_gain: "71%"
+      response_time: "60%"
+      resource_usage: "40%"
+    features:
+      - "Microservices optimization"
+      - "Database query tuning"
+      - "Caching implementation"
+      - "Resource optimization"
+      - "Performance monitoring"
+    challenges:
+      - "Identifying performance bottlenecks"
+      - "Refactoring without downtime"
+      - "Maintaining backward compatibility"
+    outcomes:
+      - "93% reduction in deployment time"
+      - "71% performance improvement"
+      - "60% faster response times"
 
 categories:
   - name: "All"
-    count: 7
-  - name: "Open Source"
+    count: 6
+  - name: "AI/ML"
     count: 1
-  - name: "Development Tools"
-    count: 2
-  - name: "Web Application"
-    count: 2
-  - name: "SaaS"
+  - name: "Enterprise"
     count: 1
-  - name: "Portfolio"
+  - name: "Integration"
+    count: 1
+  - name: "Microservices"
+    count: 1
+  - name: "Infrastructure"
+    count: 1
+  - name: "Optimization"
     count: 1

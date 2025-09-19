@@ -47,9 +47,9 @@ export default defineNuxtConfig({
       dev: IS_DEV,
       api: "https://api.nuxt.studio",
       gitInfo: {
-        name: "mubaidr.js.org",
-        owner: "mubaidr",
-        url: "https://github.com/mubaidr/mubaidr.js.org",
+        name: "divyansh-portfolio",
+        owner: "divyanshdixit",
+        url: "https://github.com/divyanshdixit/divyansh-portfolio",
       },
     },
   },
@@ -118,10 +118,10 @@ export default defineNuxtConfig({
 
   site: {
     indexable: true,
-    url: "https://mubaidr.js.org",
-    name: "Muhammad Ubaid Raza - Full Stack Engineer",
+    url: "https://divyanshdixit.dev",
+    name: "Divyansh Dixit - Senior Full Stack Developer",
     description:
-      "Senior Software Engineer specializing in modern web technologies. Crafting scalable web applications and browser extensions for startups and founders.",
+      "Senior Full Stack Developer specializing in Java, Spring Boot, Angular, and cloud technologies. Building scalable enterprise solutions with expertise in microservices and AI-powered applications.",
     defaultLocale: "en",
     enabled: true,
   },
@@ -139,33 +139,32 @@ export default defineNuxtConfig({
   schemaOrg: {
     identity: definePerson({
       // Basic Information, if applicable
-      name: "Muhammad Ubaid Raza",
-      givenName: "Muhammad Ubaid",
-      familyName: "Raza",
-      additionalName: "mubaidr", // middle name or other additional names
-      alternateName: "Muhammad Ubaid Raza",
+      name: "Divyansh Dixit",
+      givenName: "Divyansh",
+      familyName: "Dixit",
+      additionalName: "divyanshdixit", // middle name or other additional names
+      alternateName: "Divyansh Dixit",
 
       // Profile Information, if applicable
-      image: "/mubaidr.png",
+      image: "/divyansh.png",
       description:
-        "Senior Software Engineer specializing in modern web technologies. Crafting scalable web applications and browser extensions for startups and founders.",
+        "Senior Full Stack Developer specializing in Java, Spring Boot, Angular, and cloud technologies. Building scalable enterprise solutions with expertise in microservices and AI-powered applications.",
       jobTitle:
-        "Senior Software Engineer | Full-Stack Developer | DevOps Enthusiast",
+        "Senior Full Stack Developer | Java Expert | Cloud Architecture",
 
       // Contact & Social, if applicable
-      email: "mubaidr@gmail.com",
-      url: "https://mubaidr.js.org",
+      email: "divyanshdixit2001@gmail.com",
+      url: "https://divyanshdixit.dev",
       sameAs: [
-        "https://twitter.com/mubaidr",
-        "https://github.com/mubaidr",
-        "https://linkedin.com/in/mubaidr",
+        "https://github.com/divyanshdixit",
+        "https://linkedin.com/in/divyansh-dixit",
       ],
 
       // Professional Details, if applicable
       worksFor: {
         "@type": "Organization",
-        name: "Paragon Square Inc.",
-        url: "https://paragonsquare.ai",
+        name: "Supercoder",
+        url: "https://supercoder.com",
       },
     }),
   },

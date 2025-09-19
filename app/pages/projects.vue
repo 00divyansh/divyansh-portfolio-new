@@ -187,7 +187,7 @@ const filteredProjects = computed(() => {
           </p>
 
           <UButton
-            to="https://github.com/mubaidr"
+            to="https://github.com/divyanshdixit"
             external
             size="xl"
             variant="solid"

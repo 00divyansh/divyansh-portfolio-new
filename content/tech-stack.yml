@@ -1,29 +1,43 @@
 # Technical stack for homepage display
 categories:
-  - title: Frontend Frameworks
+  - title: Backend Technologies
     items:
-      - Nuxt 3
-      - Vue 3 (Composition API)
-      - Nuxt UI
-      - Tailwind CSS 4
-  - title: Content & Data
+      - Java
+      - Spring Boot
+      - PHP
+      - CodeIgniter
+      - Laravel
+  - title: Frontend Technologies
     items:
-      - Nuxt Content (Markdown/YAML/JSON)
-      - TypeScript (strict)
-  - title: Tooling & DevOps
+      - Angular
+      - TypeScript
+      - JavaScript
+      - HTML5/CSS3
+      - Bootstrap
+  - title: Databases & Storage
     items:
-      - Vite
-      - ESLint
-      - Prettier
+      - MySQL
+      - PostgreSQL
+      - MongoDB
+      - Elasticsearch
+      - Redis
+      - Aerospike
+  - title: Cloud & DevOps
+    items:
+      - AWS
+      - Docker
+      - CI/CD
+      - Microservices
       - GitHub Actions
-      - Static Generation (SSG)
-  - title: Deployment & Hosting
+  - title: AI & Innovation
     items:
-      - GitHub Pages
-      - Nitro (SSR/Prerender)
-  - title: SEO & Analytics
+      - Large Language Models (LLMs)
+      - Python
+      - Machine Learning
+      - AI Integration
+  - title: Testing & Quality
     items:
-      - Nuxt SEO
-      - Schema.org
-      - OpenGraph/Twitter Cards
-      - Nuxt Studio
+      - JUnit
+      - Mockito
+      - Test-Driven Development
+      - 100% Code Coverage
